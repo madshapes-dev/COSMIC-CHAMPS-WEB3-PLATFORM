@@ -1,0 +1,12 @@
+#!/bin/bash
+
+SOURCE=$1
+DIRECTORY="$(dirname $SOURCE)"
+
+source $DIRECTORY/version
+
+PLATFORM="$(basename -- $DIRECTORY)"
+CP_ARGS="$SOURCE s3://builds.cosmicchamps/$ENV/$VERSION/$PLATFORM/"
+
+CMD="aws --region eu-central-1 s3 cp $CP_ARGS --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers"
+eval $CMD

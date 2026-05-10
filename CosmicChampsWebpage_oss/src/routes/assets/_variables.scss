@@ -1,0 +1,57 @@
+$primary-colour: #1e1e1e;
+$secondary-colour: #5a5a5a;
+$tertiary-colour: #888;
+
+$shade-colour: #fffcf6;
+
+$light: #f7f7f7;
+$dark: #000;
+
+$white: #fff;
+$black: #000;
+
+$blue-light: #96d2cd;
+$blue-medium: #5ac3d7;
+$blue-dark: #14a0b4;
+
+$primary-gradient: linear-gradient(180deg, #0a1423 0%, #14285f 50%, #14a0b4 100%);
+
+$highlight-gradient: linear-gradient(180deg, $blue-light 0%, $blue-medium 51.04%, $blue-dark 100%);
+
+$highlight-gradient-shade: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+	linear-gradient(180deg, #96d2cd 0%, #5ac3d7 51.04%, #14a0b4 100%);
+
+$highlight-gradient-secondary: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), linear-gradient(180deg, #ebf0f0 0%, #96b9cd 100%);
+
+$highlight-gradient-secondary-shade: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, #ebf0f0 0%, #96b9cd 100%);
+
+$silver-gradient: linear-gradient(
+	0deg,
+	#b7d3e1 14.21%,
+	#b0ccda 19.65%,
+	#aec9d8 28.71%,
+	#b9cfdd 30.53%,
+	#cddce6 32.34%,
+	#dbe4ed 35.96%,
+	#e3e9f1 39.59%,
+	#e6ebf2 45.03%,
+	#ebeff4 48.65%,
+	#f3f5f8 54.09%,
+	#f6f7f9 63.15%,
+	#e6ebf2 84.9%,
+	#aec9d8 99.4%,
+	#b7d3e1 113.9%,
+	#c5dee5 121.15%,
+	#b7d3e1 132.02%,
+	#aec9d8 139.27%,
+	#e6ebf2 151.96%,
+	#f6f7f9 161.02%
+);
+
+$light-gradient: linear-gradient(180deg, #f7f7f7 0%, #ebf0f0 100%);
+
+$base-font-family: 'space grotesk', Arial, sans-serif;
+
+$heading-font-family: 'Kallisto', Arial, sans-serif;
+
+$base-font-size: 16px;

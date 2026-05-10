@@ -1,0 +1,146 @@
+# The manifest for the "api" service.
+# Read the full specification for the "Load Balanced Web Service" type at:
+#  https://aws.github.io/copilot-cli/docs/manifest/lb-web-service/
+
+# Your service name will be used in naming your resources like log groups, ECS services, etc.
+name: api
+type: Load Balanced Web Service
+
+# Distribute traffic to your service.
+http:
+  # Requests to this path will be forwarded to your service.
+  # To match all requests you can use the "/" path.
+  path: 'Api.Game'
+  # You can specify a custom health check path. The default is "/".
+  healthcheck: '/Api/Healthcheck'
+
+# Configuration for your containers and service.
+image:
+  # Docker build arguments. For additional overrides: https://aws.github.io/copilot-cli/docs/manifest/lb-web-service/#image-build
+  build:
+    dockerfile: Api/Dockerfile
+    context: ./
+  # Port exposed through your container to route traffic to it.
+  port: 80
+
+cpu: 256       # Number of CPU units for the task.
+memory: 512    # Amount of memory in MiB used by the task.
+platform: linux/arm64  # See https://aws.github.io/copilot-cli/docs/manifest/lb-web-service/#platform
+count: 1       # Number of tasks that should be running in your service.
+exec: true     # Enable running commands in your container.
+
+# Optional fields for more advanced use-cases.
+#
+#variables:                    # Pass environment variables as key value pairs.
+#  LOG_LEVEL: info
+
+#secrets:                      # Pass secrets from AWS Systems Manager (SSM) Parameter Store.
+#  GITHUB_TOKEN: GITHUB_TOKEN  # The key is the name of the environment variable, the value is the name of the SSM parameter.
+
+# You can override any of the values defined above by environment.
+environments:
+  dev:
+    count: 1               # Number of tasks to run for the "test" environment.
+    variables:
+      ASPNETCORE_ENVIRONMENT: Development
+    secrets:
+      JWT__Keys:
+        secretsmanager: 'services/api/dev/env:JWT__Keys::'
+      JWT__Issuer:
+        secretsmanager: 'services/api/dev/env:JWT__Issuer::'
+      JWT__Audience:
+        secretsmanager: 'services/api/dev/env:JWT__Audience::'
+      AWS__Secret:
+        secretsmanager: 'services/api/dev/env:AWS__Secret::'
+      AWS__Key:
+        secretsmanager: 'services/api/dev/env:AWS__Key::'
+      AWS__GameLift__Region:
+        secretsmanager: 'services/api/dev/env:AWS__GameLift__Region::'
+      AWS__Cognito__ClientId:
+        secretsmanager: 'services/api/dev/env:AWS__Cognito__ClientId::'
+      AWS__Cognito__UserPoolId:
+        secretsmanager: 'services/api/dev/env:AWS__Cognito__UserPoolId::'
+      AWS__Cognito__Region:
+        secretsmanager: 'services/api/dev/env:AWS__Cognito__Region::'        
+      AWS__GameLift__MatchmakingConfiguration:
+        secretsmanager: 'services/api/dev/env:AWS__GameLift__MatchmakingConfiguration::'
+      HMAC__Key:
+        secretsmanager: 'services/api/dev/env:HMAC__Key::'
+      WalletRequest__Auth:
+        secretsmanager: 'services/api/dev/env:WalletRequest__Auth::'
+      CustomJWT__Secret:
+        secretsmanager: 'services/api/dev/env:CustomJWT__Secret::'
+      CustomJWT__Issuer:
+        secretsmanager: 'services/api/dev/env:CustomJWT__Issuer::'
+      CustomJWT__Audience:
+        secretsmanager: 'services/api/dev/env:CustomJWT__Audience::'
+  testa:
+    count: 1
+    variables:
+      ASPNETCORE_ENVIRONMENT: TestingA
+    secrets:
+      JWT__Keys:
+        secretsmanager: 'services/api/testa/env:JWT__Keys::'
+      JWT__Issuer:
+        secretsmanager: 'services/api/testa/env:JWT__Issuer::'
+      JWT__Audience:
+        secretsmanager: 'services/api/testa/env:JWT__Audience::'
+      AWS__Secret:
+        secretsmanager: 'services/api/testa/env:AWS__Secret::'
+      AWS__Key:
+        secretsmanager: 'services/api/testa/env:AWS__Key::'
+      AWS__GameLift__Region:
+        secretsmanager: 'services/api/testa/env:AWS__GameLift__Region::'
+      AWS__Cognito__ClientId:
+        secretsmanager: 'services/api/testa/env:AWS__Cognito__ClientId::'
+      AWS__Cognito__UserPoolId:
+        secretsmanager: 'services/api/testa/env:AWS__Cognito__UserPoolId::'
+      AWS__Cognito__Region:
+        secretsmanager: 'services/api/testa/env:AWS__Cognito__Region::'        
+      AWS__GameLift__MatchmakingConfiguration:
+        secretsmanager: 'services/api/testa/env:AWS__GameLift__MatchmakingConfiguration::'
+      HMAC__Key:
+        secretsmanager: 'services/api/testa/env:HMAC__Key::'
+      WalletRequest__Auth:
+        secretsmanager: 'services/api/testa/env:WalletRequest__Auth::'
+      CustomJWT__Secret:
+        secretsmanager: 'services/api/testa/env:CustomJWT__Secret::'
+      CustomJWT__Issuer:
+        secretsmanager: 'services/api/testa/env:CustomJWT__Issuer::'
+      CustomJWT__Audience:
+        secretsmanager: 'services/api/testa/env:CustomJWT__Audience::'
+  testb:
+    count: 1
+    variables:
+      ASPNETCORE_ENVIRONMENT: TestingB
+    secrets:
+      JWT__Keys:
+        secretsmanager: 'services/api/testb/env:JWT__Keys::'
+      JWT__Issuer:
+        secretsmanager: 'services/api/testb/env:JWT__Issuer::'
+      JWT__Audience:
+        secretsmanager: 'services/api/testb/env:JWT__Audience::'
+      AWS__Secret:
+        secretsmanager: 'services/api/testb/env:AWS__Secret::'
+      AWS__Key:
+        secretsmanager: 'services/api/testb/env:AWS__Key::'
+      AWS__GameLift__Region:
+        secretsmanager: 'services/api/testb/env:AWS__GameLift__Region::'
+      AWS__Cognito__ClientId:
+        secretsmanager: 'services/api/testb/env:AWS__Cognito__ClientId::'
+      AWS__Cognito__UserPoolId:
+        secretsmanager: 'services/api/testb/env:AWS__Cognito__UserPoolId::'
+      AWS__Cognito__Region:
+        secretsmanager: 'services/api/testb/env:AWS__Cognito__Region::'        
+      AWS__GameLift__MatchmakingConfiguration:
+        secretsmanager: 'services/api/testb/env:AWS__GameLift__MatchmakingConfiguration::'
+      HMAC__Key:
+        secretsmanager: 'services/api/testb/env:HMAC__Key::'
+      WalletRequest__Auth:
+        secretsmanager: 'services/api/testb/env:WalletRequest__Auth::'
+      CustomJWT__Secret:
+        secretsmanager: 'services/api/testb/env:CustomJWT__Secret::'
+      CustomJWT__Issuer:
+        secretsmanager: 'services/api/testb/env:CustomJWT__Issuer::'
+      CustomJWT__Audience:
+        secretsmanager: 'services/api/testb/env:CustomJWT__Audience::'    

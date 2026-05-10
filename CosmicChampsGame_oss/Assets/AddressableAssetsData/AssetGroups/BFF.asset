@@ -1,0 +1,286 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: BFF
+  m_EditorClassIdentifier: 
+  m_GroupName: BFF
+  m_GUID: bf73212e4b6154cde867e096fce878bd
+  m_SerializeEntries:
+  - m_GUID: 134805f607c66b74097423d2c6317469
+    m_Address: cards/bff_1013353336
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 143e5274835df4d0ebe53a44c960829f
+    m_Address: units/bff_1013352778
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ffc3f07328954fb9b98608e0d7d669f
+    m_Address: cards/bff_1013352421
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fb94ce4c52004ae694ccda7cc02d40b
+    m_Address: units/bff_1013352565
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4141390f49e7bd64cbf7769142194299
+    m_Address: cards/bff_1013353055
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4910425a9ced3426cb116dc4c80d6f45
+    m_Address: units/bff_1013353281
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58f7a9e34ce7dec46a827424a751d87a
+    m_Address: cards/bff_1013352778
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59f8c8b38c95f4fc4a0b180e5ac91bf4
+    m_Address: units/bff_1013353488
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b8f64ec2f3784e469731a8a5f107c5f
+    m_Address: units/bff_1013353395
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 646fa0a92b226479689e1d14576bcf5c
+    m_Address: units/bff_1013352421
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64bba79864ded1a4e844c49d4797d7df
+    m_Address: cards/bff_1013353222
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7162d9a68982ff74298b770682b9b495
+    m_Address: cards/bff_1013352643
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80b83364a07d447d0b937c94f330879c
+    m_Address: units/bff_1013352851
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81d83cb8ba52dea428e5d844c1f13207
+    m_Address: cards/bff_1013353281
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83ce9a89dd380cb489ef25b0eb2cbb31
+    m_Address: cards/bff_1013352720
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83d83314463584837b5f3e1b17aeb4e4
+    m_Address: units/bff_1013353055
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ab231078260f40f9aa78e43579fa154
+    m_Address: units/bff_1013353154
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9087d9a4957d40d4badab36d177e10c4
+    m_Address: cards/bff_1013352851
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91f3442495c234c9684d7397eab8fc26
+    m_Address: units/bff_1013352360
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a69fcbdfe3df15429ed3b57a63d1ed3
+    m_Address: cards/bff_1013352483
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f234a7ef04704fe6b5790bad4155203
+    m_Address: units/bff_1013352643
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a00cdbc4d3b969d4b9376fb631c07c2c
+    m_Address: cards/bff_1013352565
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0fe7f451e79ac645a98eec4d69d76ed
+    m_Address: cards/bff_1013352971
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a536dcb8dce41402481b568daa22bd40
+    m_Address: units/bff_1013353222
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa6dc3c6d29444affa6836a9e6759261
+    m_Address: units/bff_1013353336
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b11b32472c3554465a24481267fe26cf
+    m_Address: cards/bff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c00dfc28ab831403989d0f9b26af26dd
+    m_Address: previews/bff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c01690a124775486ea50b38e0417e498
+    m_Address: units/bff_1013352971
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1751d477939a4f35afaab2a232d4014
+    m_Address: units/bff_1013352720
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d21e4b8bd6201734ebdd1934dfbde582
+    m_Address: cards/bff_1013353154
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4ebc6d99ec343446b4f53bbca42e4f7
+    m_Address: cards/bff_1013353488
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec6519fcfe55046cf9a93c0e2ca402f7
+    m_Address: units/bff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f657e1b5b32f5480c9f78b6bb96db5d3
+    m_Address: cards/bff_1013352360
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: febcd434f04134f389494b1cc156e852
+    m_Address: units/bff_1013352483
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff61b7e2a08477146a5efc9f1f976034
+    m_Address: cards/bff_1013353395
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cea574451253e4accad3a88682f7a4c4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 14d88fc5b79cd4936b41303932246a65, type: 2}
+    - {fileID: 11400000, guid: 3c2ea90f827394fb5a47ba11247feb70, type: 2}

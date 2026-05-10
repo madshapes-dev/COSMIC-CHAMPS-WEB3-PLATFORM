@@ -1,0 +1,853 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Captions Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI Captions
+  m_TableCollectionNameGuidString: e3353732e67ae4413812d35428bd1007
+  m_Entries:
+  - m_Id: 28388340260864
+    m_Key: bt_accept_disclaimer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388348649472
+    m_Key: bt_already_signedin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33661764179582976
+    m_Key: bt_back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813204426754
+    m_Key: bt_back_to_lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58698637500416
+    m_Key: bt_battle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134707596484608
+    m_Key: bt_cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18475125920751616
+    m_Key: bt_close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18184395546624
+    m_Key: bt_deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92802265897754624
+    m_Key: bt_disconnect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37005593267920896
+    m_Key: bt_forfeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33648121249521664
+    m_Key: bt_forgot_password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55804567961460736
+    m_Key: bt_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843776
+    m_Key: bt_isnt_signedup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18475125924945920
+    m_Key: bt_newslink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135634599503978496
+    m_Key: bt_optin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91742120782585856
+    m_Key: bt_refresh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55804814007721984
+    m_Key: bt_remove
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33660220692488192
+    m_Key: bt_reset_password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37017960894685184
+    m_Key: bt_resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88829347060768768
+    m_Key: bt_save_changes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843777
+    m_Key: bt_signin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843778
+    m_Key: bt_signout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843779
+    m_Key: bt_signup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87726010634592256
+    m_Key: bt_submit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69590403530088448
+    m_Key: bt_tournament
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92800194763022336
+    m_Key: bt_try_connect_again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55805007373524992
+    m_Key: bt_use
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843780
+    m_Key: bt_wallet_connect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843781
+    m_Key: bt_wallet_connecting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843782
+    m_Key: bt_wallet_disconnect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843783
+    m_Key: bt_wallet_disconnecting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843784
+    m_Key: bt_wallet_pera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843785
+    m_Key: bt_wallet_qrcode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813208621060
+    m_Key: btlrst_defeat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813208621061
+    m_Key: btlrst_drawn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813208621059
+    m_Key: btlrst_victory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59078259105587200
+    m_Key: cpn_aggressive_deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91742581963087872
+    m_Key: cpn_already_connected_refresh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59078253044817920
+    m_Key: cpn_balanced_deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92801770189742080
+    m_Key: cpn_connected_wallet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59078266722443264
+    m_Key: cpn_custom_deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59078261328568320
+    m_Key: cpn_defensive_deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92361081157050368
+    m_Key: cpn_email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813200232448
+    m_Key: cpn_full_energy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813204426752
+    m_Key: cpn_next_card
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92361240054063104
+    m_Key: cpn_nickname
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88814248673665024
+    m_Key: cpn_nickname_can_change_times
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39103420362121216
+    m_Key: cpn_overtime
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88812465540816896
+    m_Key: cpn_player_id
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88827735793721344
+    m_Key: cpn_player_id_copied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813204426753
+    m_Key: cpn_time_left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88814484389355520
+    m_Key: cpn_wallet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92815374712561664
+    m_Key: cpn_wallet_id_copied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36092752420864
+    m_Key: er_email_empty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36092752420865
+    m_Key: er_email_invalid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87742944289742848
+    m_Key: er_nickname_empty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36092756615168
+    m_Key: er_password_empty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36092756615169
+    m_Key: er_password_notmatch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92389059664535552
+    m_Key: er_wallet_not_connected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55456291206717440
+    m_Key: hdr_available_cards
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87726224825114624
+    m_Key: hdr_complete_signup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843786
+    m_Key: hdr_connect_wallet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59078753265901568
+    m_Key: hdr_deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58667627646541824
+    m_Key: hdr_deck_configuration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843787
+    m_Key: hdr_disclaimer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37017564860112896
+    m_Key: hdr_forfeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33662957169664000
+    m_Key: hdr_forgot_password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35560616486756352
+    m_Key: "hdr_network_unreachable\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135626785146527744
+    m_Key: hdr_no_prize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135635368387010560
+    m_Key: hdr_prize_game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843788
+    m_Key: hdr_profile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843789
+    m_Key: hdr_signin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843790
+    m_Key: hdr_signout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30621911998464
+    m_Key: hdr_signup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91743072692461568
+    m_Key: hdr_wallet_options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33663584843063296
+    m_Key: hnt_code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843791
+    m_Key: hnt_confirm_password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843792
+    m_Key: hnt_email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87731335118970880
+    m_Key: hnt_nickname
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843793
+    m_Key: hnt_password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41698246778880
+    m_Key: msg_bootstrap_loading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41698246778881
+    m_Key: msg_bootstrap_restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41698246778883
+    m_Key: msg_bundles_update
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41698246778882
+    m_Key: msg_bundles_update_check
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141865771851776
+    m_Key: msg_double_energy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813208621057
+    m_Key: msg_drawn_game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37017665779261440
+    m_Key: msg_forfeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41698246778884
+    m_Key: msg_homescreen_start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35560676477886464
+    m_Key: msg_network_unreachable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56214304381198336
+    m_Key: msg_no_free_slots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38074075032051712
+    m_Key: msg_oppoent_forfeited
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813204426755
+    m_Key: msg_opponent_defeated
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813208621056
+    m_Key: msg_opponent_left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39103167734996992
+    m_Key: msg_overtime
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141865771851777
+    m_Key: msg_quad_energy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33670341116026880
+    m_Key: msg_reset_password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59370544892469248
+    m_Key: msg_unit_already_in_deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813208621058
+    m_Key: msg_you_defeated
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843794
+    m_Key: txt_disclaimer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135635842137841664
+    m_Key: txt_prize_loss_algogems
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135992312276705280
+    m_Key: txt_prize_loss_algoleagues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135993353445564416
+    m_Key: txt_prize_loss_cometa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136191961952411648
+    m_Key: txt_prize_loss_coop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135920832083910656
+    m_Key: txt_prize_loss_cosmic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136192680700928000
+    m_Key: txt_prize_loss_vestige
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135631736459485184
+    m_Key: txt_prize_won_algogems
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135992651738505216
+    m_Key: txt_prize_won_algoleagues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135993563726995456
+    m_Key: txt_prize_won_cometa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136192177359282176
+    m_Key: txt_prize_won_coop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135921140897931264
+    m_Key: txt_prize_won_cosmic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136192766407335936
+    m_Key: txt_prize_won_vestige
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135921592385396736
+    m_Key: txt_reward_provided_algogems
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135992042733953024
+    m_Key: txt_reward_provided_algoleagues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135993206783336448
+    m_Key: txt_reward_provided_cometa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136191829550817280
+    m_Key: txt_reward_provided_coop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135920483595968512
+    m_Key: txt_reward_provided_cosmic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136192563067478016
+    m_Key: txt_reward_provided_vestige
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213128078290837504
+    m_Key: cpn_or
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213128538489872384
+    m_Key: bt_guest_sign_in
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213448982313033728
+    m_Key: bt_bind_email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213748126260912128
+    m_Key: hdr_bind_email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214237317025488896
+    m_Key: hdr_confirm_email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214237410839486464
+    m_Key: cpn_vetification_code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214237729862443008
+    m_Key: hnt_verification_code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214237892123287552
+    m_Key: bt_confirm_email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214243748206338048
+    m_Key: bt_resend_email_code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 215959721909149696
+    m_Key: er_password_notmeetpolicy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217744353344348160
+    m_Key: hnt_password_requirements
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217744745008455680
+    m_Key: hnt_email_verification_code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217745846495600640
+    m_Key: hdr_guest_account_detected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217745999721914368
+    m_Key: msg_guest_account_detected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217746278362112000
+    m_Key: bt_yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217746348750921728
+    m_Key: bt_not_now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217763982749982720
+    m_Key: hdr_welcomecommander
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217764391405215744
+    m_Key: bt_create_new_account
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219272113330053120
+    m_Key: cpn_cardlevel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219589222882861056
+    m_Key: err_not_enough_shards
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219589838346641408
+    m_Key: err_cardalreadytoplevel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 221799026237890560
+    m_Key: bt_levelup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224279185180319744
+    m_Key: hdr_battle_reward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224372590828838912
+    m_Key: cpn_battle_reward_old_score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224719756847996928
+    m_Key: cpn_battle_reward_new_score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225755570306539520
+    m_Key: txt_reward_provided_algocasino
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225755708705988608
+    m_Key: txt_prize_loss_algocasino
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225755935831744512
+    m_Key: txt_reward_provided_algogoana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225756014126817280
+    m_Key: txt_prize_loss_algogoana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225756114093858816
+    m_Key: txt_prize_won_algogoana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225756305635139584
+    m_Key: txt_reward_provided_tinyman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225756421611839488
+    m_Key: txt_prize_loss_tinyman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225756506970120192
+    m_Key: txt_prize_won_tinyman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226208498964226048
+    m_Key: cpn_player_level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226211531299217408
+    m_Key: err_card_level_cap_reached
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226220355447939072
+    m_Key: cpn_max_player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226233296301842432
+    m_Key: hdr_player_levelup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230904832065527808
+    m_Key: hdr_maintenance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230905194650525696
+    m_Key: msg_maintenance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230907739330568192
+    m_Key: bt_restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230961429047402496
+    m_Key: msg_signout_confirmation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231306361192833024
+    m_Key: bt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231543311690620928
+    m_Key: hnt_player_level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231556356068335616
+    m_Key: cpn_card_unlock_at
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232002424056832000
+    m_Key: bt_promo_code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232003978126155776
+    m_Key: cpn_enter_promocode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232004366032166912
+    m_Key: hnt_promocode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232004792668381184
+    m_Key: bt_redeem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232014754777915392
+    m_Key: cpn_promocode_reward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232058401321902080
+    m_Key: err_empty_promocode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237020282633576448
+    m_Key: txt_reward_provided_ghettopidgeon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237020654785781760
+    m_Key: txt_prize_loss_ghettopidgeon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237020766215856128
+    m_Key: txt_prize_won_ghettopidgeon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237020949368528896
+    m_Key: txt_reward_provided_rxelms
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237021061981396992
+    m_Key: txt_prize_loss_rxelms
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237021134404444160
+    m_Key: txt_prize_won_rxelms
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248892018677243904
+    m_Key: bt_immutable_sign_in
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251425582014783488
+    m_Key: bt_create_new_accoun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251426064955334656
+    m_Key: bt_email_password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251426736757006336
+    m_Key: bt_sign_in_immutable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251436033939333120
+    m_Key: cpn_immutable_sign_in_progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 259159892008361984
+    m_Key: cpn_my_algorand_wallet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 259160078369677312
+    m_Key: cpn_my_immutable_wallet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 261627841398956032
+    m_Key: bt_clear_cache
+    m_Metadata:
+      m_Items: []
+  - m_Id: 261728218857332736
+    m_Key: bt_support
+    m_Metadata:
+      m_Items: []
+  - m_Id: 262787277421273088
+    m_Key: msg_clear_cache
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264236957585891328
+    m_Key: msg_clear_cache_confirmation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264237268794859520
+    m_Key: bt_no
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264274448858734592
+    m_Key: msg_clear_cache_timeout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268846726242099200
+    m_Key: msg_coming_soon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270071143265722368
+    m_Key: txt_reward_provided_marcus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270071328440049664
+    m_Key: txt_prize_loss_marcus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270071400863096832
+    m_Key: txt_prize_win_marcus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364517149004259328
+    m_Key: cpn_mission_games_played
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364628664063614976
+    m_Key: hdr_missions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364630251750285312
+    m_Key: bt_event_games_read_more
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364631054984667136
+    m_Key: msg_event_games_wallet_not_connected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364699422320222208
+    m_Key: btlrst_mission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364710766645862400
+    m_Key: cpn_mission_reward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364713623868661760
+    m_Key: cpn_missions_completed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 384817055157706752
+    m_Key: txt_reward_provided_liquihog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 384817478329425920
+    m_Key: txt_prize_won_liquehog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 384818017310072832
+    m_Key: txt_prize_loss_liquihog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 384819266189254656
+    m_Key: txt_reward_provided_alphaarcade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 384819548499468288
+    m_Key: txt_prize_loss_alphaarcade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 384820128076783616
+    m_Key: txt_prize_win_alphaarcade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 388185196004892672
+    m_Key: txt_reward_provided_folksfinance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 388185428281253888
+    m_Key: txt_prize_loss_folksfinance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 388185732997439488
+    m_Key: txt_prize_won_folksfinance
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6983257376136888344
+  references:
+    version: 2
+    RefIds:
+    - rid: 6983257376136888344
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1669633645586

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "23_aug-3_sep_2023",
+    "data": "_tournament_23_aug-3_sep_2023",
+    "title": "Tournament",
+    "description": "Aug 23 - Sep 3 2023",
+    "presentation": "table"
+  },
+  {
+    "id": "8_jul-9_jul_2023",
+    "data": "_tournament_8_jul-9_jul_2023",
+    "title": "Tournament",
+    "description": "July 8 - 9 2023",
+    "presentation": "table"
+  },
+  {
+    "id": "9_jul_2023",
+    "data": "_tournament_8_jul-9_jul_2023",
+    "title": "Tournament top 8",
+    "description": "July 9 2023",
+    "presentation": "bracket"
+  }
+]

@@ -1,0 +1,11 @@
+@use 'sass:math';
+
+@function stripUnit($number) {
+	@if type-of($number) == 'number' and not unitless($number) {
+		@return math.div($number, $number * 0 + 1);
+	}
+	@return $number;
+}
+@function rem($pxValue) {
+	@return #{calc(stripUnit($pxValue) / stripUnit($base-font-size))}rem;
+}

@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Helio
+  m_EditorClassIdentifier: 
+  m_GroupName: Helio
+  m_GUID: f775ee87c45e74d5cb4b33b852432c8e
+  m_SerializeEntries:
+  - m_GUID: 03ff584d47c734340adbaae3146d86c5
+    m_Address: units/helio_798415284
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e2974c8d2f602b44afe39936a4f41d2
+    m_Address: cards/helio_798415137
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15db93b2080f8405bbd90a4c7998c98a
+    m_Address: units/helio_798415432
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d4adfdf2709d457a994dbb29ea84d6a
+    m_Address: units/helio_798414597
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 210253005d54e4e4db7ace923a56c00e
+    m_Address: cards/helio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2739c2c41270941e5a4c3d7699303916
+    m_Address: units/helio_798415137
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3515efaacdfbaa04389910ecc2e7c4e9
+    m_Address: cards/helio_798415766
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47882a98c343e425ba793a8af3ea9e1b
+    m_Address: units/helio_798413845
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 550a61d2fca704c4dbe636e868a26d87
+    m_Address: previews/helio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59b6c7381dcf85f43a45a0b49d0d5dee
+    m_Address: cards/helio_798413845
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8166af2071d534fc99090895651c3ac7
+    m_Address: units/helio_798415616
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84591479ad268475c888be03fad6c62c
+    m_Address: cards/helio_798415616
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8794041a37878d54080e093f87d60115
+    m_Address: cards/helio_798414425
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9818d6c7637285c408179170861e30e7
+    m_Address: cards/helio_798415432
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a38e747bb3f784ff6bcdcc278ca6a5d4
+    m_Address: units/helio_798414953
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5522420804dde546b2c8d7794469693
+    m_Address: cards/helio_798414243
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0f2ec235a61d6641ad6a5f8807d1467
+    m_Address: cards/helio_798414597
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5c92ec2fef2846999d37dd3f9eb4847
+    m_Address: units/helio_798414243
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5e5222a2246dcf4bb54b6b8f60faf48
+    m_Address: cards/helio_798414953
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be2604cc7fbf44e4ea3064200415f2c0
+    m_Address: cards/helio_798414797
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c344985d30d60c547a795e9274068511
+    m_Address: cards/helio_798414063
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9d6724d3444b473eb1cc3880e966941
+    m_Address: units/helio
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce64ba4ddd6404f1896871b67ed57a25
+    m_Address: units/helio_798414425
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0ee78458786a49939121c0140bdec76
+    m_Address: units/helio_798414797
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d26b9dfe2a77c43d098cce0a5134271b
+    m_Address: units/helio_798415766
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f120f098a189d4397ac325c44f7bef40
+    m_Address: units/helio_798414063
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8a305fe7d612d642aa37c9fcde068d2
+    m_Address: cards/helio_798415284
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cea574451253e4accad3a88682f7a4c4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3e8150916ad664e4a88460e2ba0bca51, type: 2}
+    - {fileID: 11400000, guid: 88628327d883443709f5d011e12ee63a, type: 2}

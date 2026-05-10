@@ -1,0 +1,96 @@
+syntax = "proto3";
+
+option csharp_namespace = "CosmicChamps.Auth.Services";
+
+service Auth {
+  rpc VersionCheck (VersionCheckRequest) returns (VersionCheckReply);
+  rpc SignUp (SignUpRequest) returns (SignUpReply);
+  rpc ConfirmSignUp (ConfirmSignUpRequest) returns (ConfirmSignUpReply);
+  rpc SignIn (SignInRequest) returns (SignInReply);
+  rpc GuestSignIn (GuestSignInRequest) returns (SignInReply);
+  rpc SignOut (SignOutRequest) returns (SignOutReply);
+  rpc RefreshToken (RefreshTokenRequest) returns (RefreshTokenReply);
+  rpc GetResetPasswordCode (GetResetPasswordCodeRequest) returns (GetResetPasswordCodeReply);
+  rpc ResetPassword (ResetPasswordRequest) returns (ResetPasswordReply);
+  rpc ImmutableSignIn (ImmutableSignInRequest) returns (SignInReply);
+}
+
+message ImmutableSignInRequest {
+  string immutableAccessToken = 1;
+}
+
+message ConfirmSignUpRequest {
+  string email = 1;
+  string code = 2;
+}
+
+message ConfirmSignUpReply {
+}
+
+message Tokens {
+  string idToken = 1;
+  string accessToken = 2;
+  string refreshToken = 3;
+  int64 accessTokenExpireTime = 4;
+}
+
+message GuestSignInRequest {
+  string deviceId = 1;  
+}
+
+message SignUpRequest {
+  string email = 1;
+  string password = 2;
+}
+
+message SignUpReply {
+}
+
+message SignInRequest {
+  string email = 1;
+  string password = 2;
+}
+
+message SignInReply {
+  Tokens tokens = 1;
+}
+
+message SignOutRequest {
+  string accessToken = 1;
+}
+
+message SignOutReply {
+}
+
+message RefreshTokenRequest {
+  string refreshToken = 1;
+}
+
+message RefreshTokenReply {
+  Tokens tokens = 1;
+}
+
+message VersionCheckRequest {
+}
+
+message VersionCheckReply {
+  string walletBridgeUrl = 1;
+}
+
+message GetResetPasswordCodeRequest {
+  string email = 1;
+}
+
+message GetResetPasswordCodeReply {
+  string email = 1;
+}
+
+message ResetPasswordRequest {
+  string email = 1;
+  string password = 2;
+  string code = 3;
+}
+
+message ResetPasswordReply {
+  string error = 1;
+}

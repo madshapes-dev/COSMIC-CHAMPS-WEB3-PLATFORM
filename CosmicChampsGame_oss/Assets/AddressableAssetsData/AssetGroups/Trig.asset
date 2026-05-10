@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Trig
+  m_EditorClassIdentifier: 
+  m_GroupName: Trig
+  m_GUID: e69b7f065fb464b41961b0c6770bfb3e
+  m_SerializeEntries:
+  - m_GUID: 0acf8c368d08b574faa5bd9e229aea69
+    m_Address: cards/trig_798474101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 128b4e655363d5d418bba67b364f95af
+    m_Address: cards/trig_798473949
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14585fae4f106460590f9f6b4ab08612
+    m_Address: units/trig_798473335
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1602eb053b6684d4e8efc9eacc3e1995
+    m_Address: units/trig_798473794
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1bb9e5e05b3694e9d93fea84c33e8feb
+    m_Address: units/trig_815281301
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2493f35d6bf34c94bbb4ca18c98d9197
+    m_Address: cards/trig_798474468
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24d50a756ebbbf74b8d551e8117e365c
+    m_Address: cards/trig_815278091
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27491d66362e74bc3bf9c042ce7434a0
+    m_Address: units/trig_798474468
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32ad080fee5ac4688951890aac12a9f7
+    m_Address: cards/trig_798474292
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c795c12e3e1642e9ab85e92cce2fd01
+    m_Address: units/trig_798473623
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d232443fa4a34481a6a2ab2544249d3
+    m_Address: units/trig_815278091
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5164f74a81bfa445a97454b794ee3f89
+    m_Address: cards/trig
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58ac19226ddc44aeb98941136c3640d4
+    m_Address: units/trig_798474292
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d8eb070abb81254a8c37c6f042c4563
+    m_Address: cards/trig_798473467
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f2521f854a4b4d4e992694e1fb00509
+    m_Address: units/trig_815281236
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9101320f6d9847846a89ba4e896f9b61
+    m_Address: cards/trig_798473623
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92ccd738fab8a544c9247d199c5f19ca
+    m_Address: cards/trig_815281301
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9604c93b89e610b4c922479b342c7b12
+    m_Address: cards/trig_798473794
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98b82d6e2ea5f4db48193691703de779
+    m_Address: units/trig_798473467
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6fb4fe03870d4949bd9900625a54e35
+    m_Address: units/trig
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd39856412b7544dcafec79258ac07a1
+    m_Address: units/trig_798474101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf327a0c242c84be09d88b82324ec7fa
+    m_Address: units/trig_798473949
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3e8bbcbee8ebb34b8c4408dc538ab66
+    m_Address: cards/trig_815278156
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d78dac763610b49bf915a15e442248b7
+    m_Address: units/trig_815278156
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db30253d5bd80c846a71661727cf7004
+    m_Address: cards/trig_815281236
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eec77b3dc1e3043e49f243164edd18db
+    m_Address: previews/trig
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: faba46a5953be4e498d4525935380e73
+    m_Address: cards/trig_798473335
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cea574451253e4accad3a88682f7a4c4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e77376fc703e146e4a2355eaaef58ff0, type: 2}
+    - {fileID: 11400000, guid: 23e70c9bd16994a278a53eb7ddd0cb5e, type: 2}

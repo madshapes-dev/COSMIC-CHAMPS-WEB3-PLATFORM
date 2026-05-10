@@ -1,0 +1,957 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI Captions_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: e3353732e67ae4413812d35428bd1007, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 3591290880996147203
+  m_TableData:
+  - m_Id: 30621911998464
+    m_Localized: Sign Up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388340260864
+    m_Localized: I understand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388348649472
+    m_Localized: Already have an Account? <u>Sign in</u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18184395546624
+    m_Localized: Deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843776
+    m_Localized: Don't have an account? Sign up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843777
+    m_Localized: Sign in
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843778
+    m_Localized: Sign Out
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843779
+    m_Localized: Sign up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843780
+    m_Localized: Connect Wallet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843781
+    m_Localized: Connecting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843782
+    m_Localized: Disconnect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843783
+    m_Localized: Disconnecting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843784
+    m_Localized: Pera Wallet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843785
+    m_Localized: QR Code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843786
+    m_Localized: Connect To Wallet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843787
+    m_Localized: Disclaimer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843788
+    m_Localized: Profile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843789
+    m_Localized: Sign In
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843790
+    m_Localized: Sign Out
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843791
+    m_Localized: Confirm password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843792
+    m_Localized: Enter email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843793
+    m_Localized: Enter password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388352843794
+    m_Localized: "<align=center><b>Welcome Champ!</b></align>\n\nBuilding games is
+      a complex endeavor that requires input from many sources, testing, and iteration
+      to create the best user experience. The Game you are playing is a beta version
+      that is under development and might contain bugs, errors and missing features
+      that can impact your experience. \n\nThe game includes optional web3 elements
+      that require you to use and interact with 3rd party apps such as crypto wallets,
+      dex platforms and nft marketplaces. All these features are here to enhance
+      your gameplay but are completely optional and don't impact core gameplay.\n\nOur
+      goal is to build the game for the players - together with the players. If you
+      wish to take more active role please join us at beta.cosmicchamps.com.\n\nDuring
+      the development period we might occasionally delete the user accounts and data
+      associated with them and no progress will be preserved for the official public
+      release of the game.\n\nEverything you see in the game is subject to change."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36092752420864
+    m_Localized: Please enter email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36092752420865
+    m_Localized: Invalid email entered
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36092756615168
+    m_Localized: Please enter password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36092756615169
+    m_Localized: Passwords don't match
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41698246778880
+    m_Localized: Loading onboard systems
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41698246778881
+    m_Localized: Restarting onboard systems
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41698246778882
+    m_Localized: Checking fuel levels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41698246778883
+    m_Localized: Refueling the starship
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41698246778884
+    m_Localized: Launching the starship
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58698637500416
+    m_Localized: Battle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813200232448
+    m_Localized: Full Energy!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813204426752
+    m_Localized: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813204426753
+    m_Localized: 'Time Left:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813204426754
+    m_Localized: Back To Lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813204426755
+    m_Localized: Your enemy is defeated!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813208621056
+    m_Localized: Your opponent has left the game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813208621057
+    m_Localized: Huh... What are the odds?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813208621058
+    m_Localized: You fought bravely, but ran out of luck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813208621059
+    m_Localized: Victory!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813208621060
+    m_Localized: Defeat...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129813208621061
+    m_Localized: Draw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134707596484608
+    m_Localized: Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141865771851776
+    m_Localized: 'Double
+
+      Energy!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141865771851777
+    m_Localized: 'Quad
+
+      Energy!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18475125920751616
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18475125924945920
+    m_Localized: More Details
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33648121249521664
+    m_Localized: Forgot password?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33660220692488192
+    m_Localized: Reset password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33662957169664000
+    m_Localized: Forgot password?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33661764179582976
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33663584843063296
+    m_Localized: Enter code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33670341116026880
+    m_Localized: We have sent a password reset code by email to {email}. Enter it
+      below to reset your password.
+    m_Metadata:
+      m_Items:
+      - rid: 3591290880996147203
+  - m_Id: 35560616486756352
+    m_Localized: Network Unreachable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35560676477886464
+    m_Localized: Check you internet connection and get back!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37005593267920896
+    m_Localized: Forfeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37017564860112896
+    m_Localized: Forfeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37017665779261440
+    m_Localized: Are you certain you wish to forfeit this match? Doing so will result
+      in a loss.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37017960894685184
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38074075032051712
+    m_Localized: Your opponent forfeited the game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39103167734996992
+    m_Localized: Overtime
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39103420362121216
+    m_Localized: Overtime
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55456291206717440
+    m_Localized: Available Cards
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55804567961460736
+    m_Localized: Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55804814007721984
+    m_Localized: Remove
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55805007373524992
+    m_Localized: Use
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56214304381198336
+    m_Localized: No free slots available
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58667627646541824
+    m_Localized: Deck Configuration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59078253044817920
+    m_Localized: Balanced
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59078259105587200
+    m_Localized: Aggressive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59078261328568320
+    m_Localized: Defensive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59078266722443264
+    m_Localized: Custom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59078753265901568
+    m_Localized: Deck #{index}
+    m_Metadata:
+      m_Items:
+      - rid: 3591290880996147203
+  - m_Id: 59370544892469248
+    m_Localized: Unit already in the deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69590403530088448
+    m_Localized: Tournament
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87726010634592256
+    m_Localized: Submit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87726224825114624
+    m_Localized: What should we call you?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87731335118970880
+    m_Localized: Enter nickname
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87742944289742848
+    m_Localized: Fill in nickname
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88812465540816896
+    m_Localized: Player ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88814248673665024
+    m_Localized: Nickname (can change {times} times)
+    m_Metadata:
+      m_Items:
+      - rid: 3591290880996147203
+  - m_Id: 88814484389355520
+    m_Localized: Wallet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88827735793721344
+    m_Localized: Player ID copied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88829347060768768
+    m_Localized: Save changes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91742120782585856
+    m_Localized: Refresh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91742581963087872
+    m_Localized: Already connected? Refresh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91743072692461568
+    m_Localized: Wallet Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92361240054063104
+    m_Localized: Nickname
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92361081157050368
+    m_Localized: Email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92389059664535552
+    m_Localized: Connect wallet first
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92800194763022336
+    m_Localized: Try connecting again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92801770189742080
+    m_Localized: Connected wallet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92802265897754624
+    m_Localized: Disconnect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92815374712561664
+    m_Localized: Wallet ID copied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135626785146527744
+    m_Localized: NO PRIZE :(
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135631736459485184
+    m_Localized: Prize will be sent to your address in 5mins.\n\nYou need to be opted
+      in to CHIPS token to receive your reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135634599503978496
+    m_Localized: Opt-in
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135635368387010560
+    m_Localized: $$ PRIZE GAME $$
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135635842137841664
+    m_Localized: 'Prize is earned only if you Win.
+
+
+      Opt-in to GEMS ASA to
+      receive your rewards next time!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135920483595968512
+    m_Localized: 'Rewards provided by: Cosmic Champs'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135920832083910656
+    m_Localized: 'Prize is earned only if you Win.
+
+
+      Opt-in to COSG ASA to
+      receive your rewards next time!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135921140897931264
+    m_Localized: 'Prize will be sent to your address in 5mins.
+
+
+      You need to
+      be opted in to COSG ASA to receive your reward!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135921592385396736
+    m_Localized: 'Reward provided by: AlgoGems.io'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135992042733953024
+    m_Localized: 'Reward provided by: AlgoLeagues.com'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135992312276705280
+    m_Localized: 'Prize is earned only if you Win.
+
+
+      Opt-in to ALC ASA to receive
+      your rewards next time!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135992651738505216
+    m_Localized: 'Prize will be sent to your address in 5mins.
+
+
+      You need to
+      be opted in to ALC ASA to receive your reward!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135993206783336448
+    m_Localized: 'Reward provided by: Cometa.farm'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135993353445564416
+    m_Localized: 'Prize is earned only if you Win.
+
+
+      Opt-in to META ASA to
+      receive your rewards next time!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135993563726995456
+    m_Localized: 'Prize will be sent to your address in 5mins.
+
+
+      You need to
+      be opted in to META ASA to receive your reward!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136191829550817280
+    m_Localized: 'Reward provided by: Coop CRV'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136191961952411648
+    m_Localized: 'Prize is earned only if you Win.
+
+
+      Opt-in to COOP ASA to
+      receive your rewards next time!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136192177359282176
+    m_Localized: 'Prize will be sent to your address in 5mins.
+
+
+      You need to
+      be opted in to COOP ASA to receive your reward!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136192563067478016
+    m_Localized: 'Reward provided by: Vestige.fi'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136192680700928000
+    m_Localized: 'Prize is earned only if you Win.
+
+
+      Opt-in to VEST ASA to
+      receive your rewards next time!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136192766407335936
+    m_Localized: 'Prize will be sent to your address in 5mins.
+
+
+      You need to
+      be opted in to VEST ASA to receive your reward!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213128078290837504
+    m_Localized: or
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213128538489872384
+    m_Localized: Continue as guest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213448982313033728
+    m_Localized: Bind email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213748126260912128
+    m_Localized: Bind Email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214237317025488896
+    m_Localized: Email Verification
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214237410839486464
+    m_Localized: Verification code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214237729862443008
+    m_Localized: Verification code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214237892123287552
+    m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214243748206338048
+    m_Localized: Resend code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 215959721909149696
+    m_Localized: The password doesn't meet the password policy requirements
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217744353344348160
+    m_Localized: Password must be at least 8 characters long, contain upper and lower
+      case character, number and a special character.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217744745008455680
+    m_Localized: Enter the 6-digit verification code you received to your email and
+      click confirm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217745846495600640
+    m_Localized: Guest Account detected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217746278362112000
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217746348750921728
+    m_Localized: Not Right Now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217745999721914368
+    m_Localized: 'You need to bind your email address first before connecting external
+      wallet.
+
+
+      Would you like to bind your email now?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217763982749982720
+    m_Localized: Welcome Commander!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217764391405215744
+    m_Localized: Create New Account
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219272113330053120
+    m_Localized: Level {level}
+    m_Metadata:
+      m_Items:
+      - rid: 3591290880996147203
+  - m_Id: 219589222882861056
+    m_Localized: Not enough Shards
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219589838346641408
+    m_Localized: Card already is on top level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 221799026237890560
+    m_Localized: Upgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224279185180319744
+    m_Localized: Your Loot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224372590828838912
+    m_Localized: 'MMR: {old}'
+    m_Metadata:
+      m_Items:
+      - rid: 3591290880996147203
+  - m_Id: 224719756847996928
+    m_Localized: " \xBB {new}"
+    m_Metadata:
+      m_Items:
+      - rid: 3591290880996147203
+  - m_Id: 225755570306539520
+    m_Localized: 'Rewards provided by: algo-casino.com'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225755708705988608
+    m_Localized: Prize is earned only if you Win!\n\nOpt-in to CHIPS token to receive
+      your rewards next time!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225755935831744512
+    m_Localized: 'Rewards provided by: Al Goanna'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225756014126817280
+    m_Localized: Prize is earned only if you Win!\n\nOpt-in to GOAN token to receive
+      your rewards next time!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225756114093858816
+    m_Localized: Prize will be sent to your address in 5mins.\n\nYou need to be opted
+      in to GOAN token to receive your reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225756305635139584
+    m_Localized: 'Rewards provided by: Tinyman.org'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225756421611839488
+    m_Localized: Prize is earned only if you Win!\n\nOpt-in to TINY token to receive
+      your rewards next time!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225756506970120192
+    m_Localized: Prize will be sent to your address in 5mins.\n\nYou need to be opted
+      in to TINY token to receive your reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226208498964226048
+    m_Localized: Level {level}
+    m_Metadata:
+      m_Items:
+      - rid: 3591290880996147203
+  - m_Id: 226211531299217408
+    m_Localized: Player level too low. Increase player level to unlock more upgrades.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226220355447939072
+    m_Localized: Max Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226233296301842432
+    m_Localized: Level Up!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230904832065527808
+    m_Localized: We are under maintenance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230905194650525696
+    m_Localized: The app is down for a maintenance, please try again later
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230907739330568192
+    m_Localized: Restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230961429047402496
+    m_Localized: Are you sure you wish to sign out?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231543311690620928
+    m_Localized: 'Increase your commander level to unlock power-ups and extra perks.
+
+
+      Commander
+      level progresses automatically each time you upgrade your Champs.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231556356068335616
+    m_Localized: 'UNLOCKS
+
+      at
+
+      Level {level}'
+    m_Metadata:
+      m_Items:
+      - rid: 3591290880996147203
+  - m_Id: 232002424056832000
+    m_Localized: I have promo code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232003978126155776
+    m_Localized: Please input your promo code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232004366032166912
+    m_Localized: Promocode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232004792668381184
+    m_Localized: Redeem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232014754777915392
+    m_Localized: "You\u2019ve received"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232058401321902080
+    m_Localized: Empty promo code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237020282633576448
+    m_Localized: 'Rewards provided by: ghettopigeon.com'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237020654785781760
+    m_Localized: Prize is earned only if you Win.\n\nOpt-in to Coo-Coo token to receive
+      your rewards next time!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237020766215856128
+    m_Localized: Prize will be sent to your address in 5mins.\n\nYou need to be opted
+      in to Coo-Coo token to receive your reward!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237020949368528896
+    m_Localized: 'Rewards provided by: rxelms.com'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237021061981396992
+    m_Localized: Prize is earned only if you Win!\n\nOpt-in to NIKO token to receive
+      your rewards next time!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237021134404444160
+    m_Localized: Prize will be sent to your address in 5mins.\n\nYou need to be opted
+      in to NIKO token to receive your reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248892018677243904
+    m_Localized: Passport
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251426064955334656
+    m_Localized: Email & Password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251426736757006336
+    m_Localized: Sign in with Immutable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251436033939333120
+    m_Localized: Please finish the process in browser tab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 259159892008361984
+    m_Localized: 'My Algorand Wallet:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 259160078369677312
+    m_Localized: 'My Immutable Passport wallet:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 261627841398956032
+    m_Localized: Clear Cache
+    m_Metadata:
+      m_Items: []
+  - m_Id: 261728218857332736
+    m_Localized: Support
+    m_Metadata:
+      m_Items: []
+  - m_Id: 262787277421273088
+    m_Localized: Cleaning up cache
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264236957585891328
+    m_Localized: Clearing cache will require to re-download some of the files. Are
+      you sure you wish to proceed?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264237268794859520
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264274448858734592
+    m_Localized: Initiating systems check
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268846726242099200
+    m_Localized: Coming soon...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270071143265722368
+    m_Localized: 'Sponsored by: marcusfurrelius.com'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270071328440049664
+    m_Localized: Prize is earned only if you Win.\n\nOpt-in to MARCUS token to receive
+      your rewards next time!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270071400863096832
+    m_Localized: Prize will be sent to your address in 5mins.\n\nYou need to be opted
+      in to MARCUS token to receive your reward!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364517149004259328
+    m_Localized: Games played
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364628664063614976
+    m_Localized: Limited Event
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364630251750285312
+    m_Localized: Event details
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364631054984667136
+    m_Localized: Please connect your Algorand wallet to participate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364699422320222208
+    m_Localized: Mission Completed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364710766645862400
+    m_Localized: REWARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364713623868661760
+    m_Localized: You have completed all available missions!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 384817478329425920
+    m_Localized: Prize will be sent to your address in 5mins.\n\nYou need to be opted
+      in to HOG token to receive your reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 384818017310072832
+    m_Localized: Prize is earned only if you Win!\n\nOpt-in to HOG token to receive
+      your rewards next time!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 384819266189254656
+    m_Localized: 'Sponsored by: alphaarcade.com'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 384819548499468288
+    m_Localized: Prize is earned only if you Win.\n\nOpt-in to ALPHA token to receive
+      your rewards next time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 384820128076783616
+    m_Localized: Prize will be sent to your address in 5mins.\n\nYou need to be opted
+      in to ALPHA token to receive your reward!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 384817055157706752
+    m_Localized: 'Rewards provided by: community'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 388185196004892672
+    m_Localized: 'Sponsored by: folks.finance'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 388185428281253888
+    m_Localized: Prize will be sent to your address in 5 mins.\n\nYou need to be
+      opted in to FOLKS token to receive your reward!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 388185732997439488
+    m_Localized: Prize is earned only if you Win.\n\nOpt-in to FOLKS token to receive
+      your rewards next time!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 3591290880996147203
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 33670341116026880
+        - id: 59078753265901568
+        - id: 88814248673665024
+        - id: 219272113330053120
+        - id: 219301871916933120
+        - id: 224372590828838912
+        - id: 224719756847996928
+        - id: 226208498964226048
+        - id: 231556356068335616

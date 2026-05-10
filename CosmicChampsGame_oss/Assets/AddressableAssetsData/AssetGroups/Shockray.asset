@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Shockray
+  m_EditorClassIdentifier: 
+  m_GroupName: Shockray
+  m_Data:
+    m_SerializedData: []
+  m_GUID: cab2749561f9041de9edc649238d8af4
+  m_SerializeEntries:
+  - m_GUID: 1e303d8ee54594de793d2bceb38f8de7
+    m_Address: cards/shockray
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Cards
+  - m_GUID: 5a9dfa98d6a694421a5a91c2867ddb03
+    m_Address: units/shockray
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+  - m_GUID: b0f2eaec1cabb422e8e4bab0f81a41e4
+    m_Address: previews/shockray
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cea574451253e4accad3a88682f7a4c4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0433e78fe75be434ba5ed22ed9b52693, type: 2}
+    - {fileID: 11400000, guid: 3537478b3cb464facbabe1834b46e6b6, type: 2}

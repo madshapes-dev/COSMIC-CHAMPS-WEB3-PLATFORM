@@ -1,0 +1,17 @@
+#!/bin/bash
+
+POSTFIX=$1
+VERSION=$2
+BUILD=$3
+
+aws --region eu-central-1 gamelift create-fleet \
+    --name "CosmicChamps-$VERSION-Test$POSTFIX" \
+    --description "CosmicChamps Test$POSTFIX Fleet version $VERSION" \
+    --build-id $BUILD \
+    --certificate-configuration 'CertificateType=GENERATED' \
+    --ec2-instance-type c5.large \
+    --ec2-inbound-permissions file://configs/gamelift/ports-config.json \
+    --fleet-type ON_DEMAND \
+    --new-game-session-protection-policy FullProtection \
+    --runtime-configuration file://configs/gamelift/runtime-config-test.json \
+    --instance-role-arn 'arn:aws:iam::244795288786:role/CloudWatchAgentServerRole'

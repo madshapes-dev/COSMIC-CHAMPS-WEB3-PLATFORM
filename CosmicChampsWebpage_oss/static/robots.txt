@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /tiers
+Disallow: /allowlist
+Disallow: /whitelist
+Disallow: /cosg-migration
+Disallow: /lp-migration

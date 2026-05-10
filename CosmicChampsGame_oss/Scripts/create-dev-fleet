@@ -1,0 +1,13 @@
+#!/bin/bash
+
+aws --region eu-central-1 gamelift create-fleet \
+    --name "CosmicChamps-$1-Dev" \
+    --description "CosmicChamps Dev Fleet version $1" \
+    --build-id $2 \
+    --certificate-configuration 'CertificateType=GENERATED' \
+    --ec2-instance-type c5.large \
+    --ec2-inbound-permissions file://configs/gamelift/ports-config.json \
+    --fleet-type ON_DEMAND \
+    --new-game-session-protection-policy FullProtection \
+    --runtime-configuration file://configs/gamelift/runtime-config-dev.json \
+    --instance-role-arn 'arn:aws:iam::244795288786:role/CloudWatchAgentServerRole'

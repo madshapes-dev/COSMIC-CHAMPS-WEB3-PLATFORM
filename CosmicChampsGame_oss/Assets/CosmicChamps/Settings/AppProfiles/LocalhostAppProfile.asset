@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60b712126a1b4cd697282c8aa5e63c6d, type: 3}
+  m_Name: LocalhostAppProfile
+  m_EditorClassIdentifier: 
+  _authServiceUrl: https://localhost:7000
+  _apiServiceUrl: https://localhost:7001
+  _apiServiceSecretKey: 
+  _bundlesLoadUrl: https://localhost:7002
+  _customToken: 
+  _connectWalletUrl: 
+  _adMobUnit:
+    _androidId: 
+    _iosId: 
+  _immutable:
+    _clientId: 
+    _webClientId: 
+    _environment: 
+    _deeplinkUri: 
+    _redirectUriPath: 
+    _logoutRedirectUriPath: 

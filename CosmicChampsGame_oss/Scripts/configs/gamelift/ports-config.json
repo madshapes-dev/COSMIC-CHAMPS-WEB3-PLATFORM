@@ -1,0 +1,20 @@
+[
+	{
+		"FromPort": 22,
+		"ToPort": 22,
+		"IpRange": "0.0.0.0/0",
+		"Protocol": "TCP"
+	},
+	{
+		"FromPort": 30000,
+		"ToPort": 40000,
+		"IpRange": "0.0.0.0/0",
+		"Protocol": "TCP"
+	},
+	{
+		"FromPort": 30000,
+		"ToPort": 40000,
+		"IpRange": "0.0.0.0/0",
+		"Protocol": "UDP"
+	}
+]

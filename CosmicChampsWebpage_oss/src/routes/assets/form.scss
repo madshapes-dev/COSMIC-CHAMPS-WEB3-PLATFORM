@@ -1,0 +1,176 @@
+.button {
+	@include font-style-paragraph-small(700);
+	display: inline-block;
+	border-radius: rem(4px);
+	padding: rem(2px);
+	border-radius: rem(4px) rem(10px);
+	background-color: $blue-medium;
+	background: $silver-gradient;
+	box-shadow: rem(1px) rem(2px) rem(3px) 0 rgba($black, 0.1);
+	@apply transition duration-500 ease-in;
+
+	.button__inner {
+		padding: rem(8px) rem(17px);
+		display: block;
+		border-radius: rem(3px) rem(8px);
+	}
+
+	&:hover {
+		cursor: pointer;
+	}
+
+	&.hidden {
+		opacity: 0;
+		pointer-events: none;
+	}
+}
+
+.button--golden {
+	@apply bg-yellow-400 bg-gradient-to-t from-yellow-800 shadow-xl dark:bg-yellow-600;
+}
+
+.button--golden .button__inner {
+	@apply bg-yellow-200 bg-gradient-to-t from-yellow-600 text-yellow-800 dark:text-yellow-700 hover:dark:text-white;
+	&:hover {
+		@apply bg-yellow-300 bg-gradient-to-t from-yellow-700;
+	}
+}
+
+.button--primary {
+	color: $light;
+	background-color: $blue-medium;
+
+	.button__inner {
+		background-color: $blue-medium;
+		background: $highlight-gradient;
+	}
+
+	&:hover {
+		background-color: $light;
+		background-color: $blue-dark;
+
+		.button__inner {
+			background-color: $blue-dark;
+			background: $highlight-gradient-shade;
+		}
+	}
+}
+
+.button--secondary {
+	color: $light;
+	@apply text-cyan-800;
+	background-color: $blue-medium;
+
+	.button__inner {
+		background-color: $blue-medium;
+		background: $highlight-gradient-secondary;
+	}
+
+	&:hover {
+		background-color: $light;
+		background-color: $blue-dark;
+
+		.button__inner {
+			background-color: $blue-dark;
+			background: $highlight-gradient-secondary-shade;
+		}
+	}
+}
+
+.button--tertiary {
+	background-color: $blue-dark;
+	background: $highlight-gradient;
+	box-shadow: 0;
+	padding: rem(1px);
+
+	.button__inner {
+		background-color: $white;
+	}
+
+	.button__text {
+		display: block;
+		color: $blue-dark;
+		background: $highlight-gradient;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	&:hover {
+		background-color: $blue-dark;
+		background: $highlight-gradient-shade;
+
+		.button__inner {
+			background-color: $white;
+		}
+
+		.button__text {
+			background: none;
+			color: $white;
+			background-clip: unset;
+			-webkit-text-fill-color: $white;
+		}
+	}
+}
+
+fieldset {
+	@apply rounded-md border-2 border-cyan-500 px-4 pb-2 pt-3 sm:px-8;
+}
+legend {
+	@apply text-lg font-bold;
+}
+.label-title {
+	@apply mb-2 text-sm font-medium leading-tight text-cyan-800 sm:text-base;
+}
+.label-subtitle {
+	@apply -mt-1.5 mb-3 text-xs leading-tight text-slate-600;
+}
+.label-radio {
+	@apply mr-6 inline-flex cursor-pointer items-center text-sm text-slate-700;
+}
+.block {
+	@apply mb-5;
+}
+input,
+select,
+textarea {
+	@apply min-h-[42px] rounded-md border border-slate-200 p-2  shadow-sm focus:border-cyan-400 focus:ring focus:ring-cyan-400 focus:ring-opacity-30;
+}
+textarea,
+select {
+	@apply w-full;
+}
+input[type='number'] {
+	@apply w-full;
+	&.timestamp {
+		@apply hidden;
+	}
+}
+input[type='text'] {
+	@apply block w-full;
+}
+input[type='radio'] {
+	@apply mr-2 min-h-max cursor-pointer rounded-full p-2.5 text-cyan-600;
+}
+input[type='checkbox'] {
+	@apply mr-2 min-h-max cursor-pointer rounded-sm p-2.5 text-cyan-600;
+}
+.bug-impact {
+	input[type='radio'] {
+		@apply mr-0;
+	}
+}
+sup {
+	@apply text-[10px] text-red-600;
+}
+.alert {
+	@apply flex items-start justify-center rounded-md border-2 border-2 border-cyan-500 bg-cyan-900 p-6 text-left font-medium text-cyan-200 md:items-center md:p-10 md:text-base;
+	:global(a) {
+		@apply underline;
+	}
+	:global(ul) {
+		@apply mt-3 list-inside list-disc text-sm;
+		:global(li) {
+			@apply my-0.5;
+		}
+	}
+}

@@ -1,0 +1,106 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: Arial;
+	font-family: $base-font-family;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.title {
+	@include heading-default-settings;
+	@include font-style-heading-1(900);
+	margin-bottom: rem(42px);
+	color: $black;
+	background: $highlight-gradient;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+	&--normal {
+		font-weight: 400;
+	}
+}
+
+.title--light {
+	@include heading-default-settings;
+	@include font-style-heading-1(900);
+	margin-bottom: rem(42px);
+	color: $black;
+	background: $highlight-gradient-secondary;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+	&--normal {
+		font-weight: 400;
+	}
+}
+
+.title--size-huge {
+	@include font-style-heading-huge;
+}
+
+.title--gradient {
+	font-family: $heading-font-family;
+	background: $highlight-gradient;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.title--golden {
+	font-family: $heading-font-family;
+	@apply bg-yellow-200 bg-gradient-to-t from-yellow-600 text-yellow-800 dark:text-yellow-700 hover:dark:text-white;
+}
+.title--cyan {
+	font-family: $heading-font-family;
+	@apply bg-cyan-200 bg-gradient-to-t from-cyan-600 text-cyan-50;
+}
+.title--light {
+	font-family: $heading-font-family;
+	@apply bg-cyan-50 bg-gradient-to-t from-cyan-300 text-cyan-100;
+}
+
+h1,
+.title--size-1 {
+	@include font-style-heading-1;
+}
+
+.title--size-2 {
+	@include font-style-heading-2;
+}
+
+.title--size-3 {
+	@include font-style-heading-3;
+}
+
+.title--size-4 {
+	@include font-style-heading-4;
+}
+
+.title--size-5 {
+	@include font-style-heading-5;
+}
+
+.title--subtitle {
+	background: $highlight-gradient;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.paragraph-styles {
+	@include font-style-paragraph-default;
+	@include paragraph-reset;
+
+	&--small {
+		@include font-style-paragraph-small;
+	}
+
+	&--micro {
+		@include font-style-paragraph-micro;
+	}
+
+	&--bold {
+		font-weight: 700;
+	}
+}

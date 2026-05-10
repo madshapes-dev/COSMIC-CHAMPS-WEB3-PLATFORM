@@ -1,0 +1,109 @@
+SVELTEKIT v1 -> v2 UPGRADE GUIDE (for Vercel deployment with Node 20/22)
+==========================================================================
+
+CONTEXT
+-------
+SvelteKit v1 uses adapter-vercel v2, which only supports nodejs16.x and nodejs18.x.
+Vercel no longer supports Node below 20. This causes build failures.
+The fix is to upgrade to SvelteKit v2 + Vite v5, which uses adapter-vercel v6
+that supports nodejs20.x, nodejs22.x, nodejs24.x.
+
+PACKAGE.JSON CHANGES
+--------------------
+devDependencies:
+  @sveltejs/kit:               ^1.x.x  ->  ^2.4.0
+  @sveltejs/adapter-auto:      ^2.x.x  ->  ^3.0.0
+  vite:                        ^4.x.x  ->  ^5.0.0
+  @sveltejs/vite-plugin-svelte:  ADD    ->  ^3.1.2  (new required peer dep)
+
+dependencies:
+  @sveltejs/adapter-vercel:    ^2.x.x  ->  ^6.3.3  (or keep existing if already v6)
+
+SVELTE.CONFIG.JS
+----------------
+Change adapter import and add runtime option:
+
+  // Before
+  import adapter from '@sveltejs/adapter-auto';
+  adapter()
+
+  // After (option A - use adapter-auto, recommended)
+  import adapter from '@sveltejs/adapter-auto';
+  adapter()   // no runtime option needed, adapter-vercel v6 handles it
+
+  // After (option B - use adapter-vercel directly, avoids dynamic installs)
+  import adapter from '@sveltejs/adapter-vercel';
+  adapter({ runtime: 'nodejs22.x' })
+
+NOTE: If using adapter-vercel directly (option B), make sure @sveltejs/adapter-vercel
+is in dependencies (not devDependencies) and is version ^6.x.x.
+
+INSTALL COMMAND
+---------------
+npm install --legacy-peer-deps
+
+This is required if any packages have algosdk peer dep conflicts (e.g. lute-connect,
+@perawallet/connect, @blockshake/defly-connect). Set this as the install command
+override in Vercel project settings too.
+
+VERCEL PROJECT SETTINGS
+-----------------------
+Settings -> General -> Build & Development Settings:
+  Install Command: npm install --legacy-peer-deps
+  (Override must be enabled)
+
+Node.js version in Vercel can stay at 20 or 22 - either works with adapter-vercel v6.
+
+CODE CHANGES REQUIRED (SvelteKit v1 -> v2 breaking changes)
+------------------------------------------------------------
+1. redirect() and error() must be THROWN, not returned:
+   // v1
+   return redirect(307, '/login');
+   return error(404, 'Not found');
+
+   // v2
+   throw redirect(307, '/login');
+   throw error(404, 'Not found');
+
+2. cookies.set() now requires a path option:
+   // v1
+   cookies.set('name', 'value');
+
+   // v2
+   cookies.set('name', 'value', { path: '/' });
+
+3. handleError hook signature changed:
+   // v1
+   export function handleError({ error, event }) {}
+
+   // v2
+   export function handleError({ error, event, status, message }) {}
+
+4. resolvePath() renamed to resolveRoute():
+   // v1
+   import { resolvePath } from '@sveltejs/kit';
+
+   // v2
+   import { resolveRoute } from '@sveltejs/kit';
+
+HOW TO CHECK WHAT NEEDS CHANGING BEFORE UPGRADING
+--------------------------------------------------
+Run these greps to find breaking patterns in your codebase:
+
+  grep -rn "return redirect\|return error\|return fail" src/ --include="*.js" --include="*.ts"
+  grep -rn "cookies.set(" src/ --include="*.js" --include="*.ts"
+  grep -rn "resolvePath" src/ --include="*.js" --include="*.ts"
+  find src/ -name "hooks.server.js" -o -name "hooks.server.ts"
+
+If all return empty, the migration is essentially zero-effort.
+
+MIGRATION STEPS SUMMARY
+------------------------
+1. Run the grep checks above to assess effort
+2. Update package.json (kit, adapter-auto, vite versions + add vite-plugin-svelte)
+3. Update svelte.config.js adapter import/runtime
+4. Run: npm install --legacy-peer-deps
+5. Run: npm run build  (expect failure only if missing .env vars - that is fine)
+6. Fix any breaking changes found by the greps
+7. Commit and push
+8. Confirm Vercel install command override is still set

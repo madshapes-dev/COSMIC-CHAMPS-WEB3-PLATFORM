@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Digg
+  m_EditorClassIdentifier: 
+  m_GroupName: Digg
+  m_GUID: 1e6268d465ae04429a33e96e2fee025c
+  m_SerializeEntries:
+  - m_GUID: 2d63ffc74ecf545b38b4fe48c1eb6986
+    m_Address: cards/digg_888888888
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2efccf1aa798e453fa33e128df1add2d
+    m_Address: cards/digg_777777777
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45aa0bdf80748413abf7881b0fffbfb5
+    m_Address: previews/digg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b3c7e31d27964b30878146f52e82c1e
+    m_Address: units/digg_888888888
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f7c2a16453754b6daaf50f7607a2d5d
+    m_Address: units/digg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a577b69d0d4a2429b812e9624ec6d5a8
+    m_Address: cards/digg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb156c63b503b41229c78dbb9187071c
+    m_Address: units/digg_777777777
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cea574451253e4accad3a88682f7a4c4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 30d1661a255684aca9a61111e465cbac, type: 2}
+    - {fileID: 11400000, guid: 27e05461acb114f628221dbddd00fff9, type: 2}

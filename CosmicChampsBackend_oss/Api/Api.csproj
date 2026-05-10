@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <RootNamespace>CosmicChamps.Api</RootNamespace>
+        <AssemblyName>CosmicChamps.Api</AssemblyName>
+      <UserSecretsId>8e752bf5-b6dd-4df9-8a97-d5db642718ef</UserSecretsId>
+  </PropertyGroup>
+
+    <ItemGroup>
+        <Protobuf Include="Protos\game.proto" GrpcServices="Server" />
+        <!--<Protobuf Include="Protos\game.proto" OutputDir="/Users/nazarov" GrpcServices="Client" CompileOutputs="false"/>-->
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Amazon.Extensions.Configuration.SystemsManager" Version="4.0.0" />
+        <PackageReference Include="AWSSDK.CognitoIdentityProvider" Version="3.7.1.95" />
+        <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.402.1" />
+        <PackageReference Include="AWSSDK.GameLift" Version="3.7.1.60" />
+        <PackageReference Include="FluentDateTime" Version="2.1.0" />
+        <PackageReference Include="Grpc.AspNetCore" Version="2.45.0-pre1" />
+        <PackageReference Include="Grpc.AspNetCore.Web" Version="2.45.0-pre1" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.2" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="3.0.3" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ClientFilterInterceptor\ClientFilterInterceptor.csproj" />
+      <ProjectReference Include="..\Common\Common.csproj" />
+    </ItemGroup>
+
+</Project>

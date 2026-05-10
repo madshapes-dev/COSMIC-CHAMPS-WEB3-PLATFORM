@@ -1,0 +1,12 @@
+#!/bin/bash
+
+FLEET=$1
+INSTANCE=$2
+SOURCE=$3
+DST=$4
+
+read -r instance_id instance_ip <<< `aws --region eu-central-1 gamelift describe-instances --fleet-id $FLEET --query "Instances[$INSTANCE].[InstanceId,IpAddress]" --output text`
+key_path="$instance_id.pem"
+aws --region eu-central-1 gamelift get-instance-access --fleet-id $1 --instance-id $instance_id --query "InstanceAccess.Credentials.Secret" --output text > $key_path
+chmod 400 $key_path
+scp -o IdentitiesOnly=yes -i $key_path -r $SOURCE "gl-user-remote@$instance_ip:$DST"

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Emojis
+  m_EditorClassIdentifier: 
+  m_GroupName: Emojis
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0186863098c1c42079c52b8dff0b6907
+  m_SerializeEntries:
+  - m_GUID: 4849d03c3726442e5bec3ba5e00f2cd1
+    m_Address: emojis/tri
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+  - m_GUID: f8e40fb5422ac4358ab072d17a7bafc1
+    m_Address: emojis/ram
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+  - m_GUID: dbadfc00ce35548f9a083b3ba66eccf1
+    m_Address: emojis/inv
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+  - m_GUID: 3092d5e9a5b0a4476943e149ae77b964
+    m_Address: emojis/coy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cea574451253e4accad3a88682f7a4c4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 196bda8052e4d4af7b5f0e23d66cf12f, type: 2}
+    - {fileID: 11400000, guid: fdf65f40bf0304f6ea9f7218d8344498, type: 2}

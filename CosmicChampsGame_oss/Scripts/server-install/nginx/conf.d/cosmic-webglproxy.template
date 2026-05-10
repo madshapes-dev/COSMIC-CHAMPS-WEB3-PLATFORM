@@ -1,0 +1,60 @@
+map $http_upgrade $connection_upgrade {
+    default upgrade;
+    ''      close;
+}
+
+server {
+    listen 30001 ssl;
+    set $gs_host ${PUBLIC_HOSTNAME};
+    set $gs_port 30002;
+    include /etc/nginx/conf.d/reverse-proxy.template;
+}
+
+server {
+    listen 30011 ssl;
+    set $gs_host ${PUBLIC_HOSTNAME};
+    set $gs_port 30012;
+    include /etc/nginx/conf.d/reverse-proxy.template;
+}
+
+server {
+    listen 30021 ssl;
+    set $gs_host ${PUBLIC_HOSTNAME};
+    set $gs_port 30022;
+    include /etc/nginx/conf.d/reverse-proxy.template;
+}
+
+server {
+    listen 30031 ssl;
+    set $gs_host ${PUBLIC_HOSTNAME};
+    set $gs_port 30032;
+    include /etc/nginx/conf.d/reverse-proxy.template;
+}
+
+server {
+    listen 30041 ssl;
+    set $gs_host ${PUBLIC_HOSTNAME};
+    set $gs_port 30042;
+    include /etc/nginx/conf.d/reverse-proxy.template;
+}
+
+server {
+    listen 30051 ssl;
+    set $gs_host ${PUBLIC_HOSTNAME};
+    set $gs_port 30052;
+    include /etc/nginx/conf.d/reverse-proxy.template;
+}
+
+server {
+    listen 30061 ssl;
+    set $gs_host ${PUBLIC_HOSTNAME};
+    set $gs_port 30062;
+    include /etc/nginx/conf.d/reverse-proxy.template;
+}
+
+server {
+    listen 30071 ssl;
+    set $gs_host ${PUBLIC_HOSTNAME};
+    set $gs_port 30072;
+    include /etc/nginx/conf.d/reverse-proxy.template;
+}

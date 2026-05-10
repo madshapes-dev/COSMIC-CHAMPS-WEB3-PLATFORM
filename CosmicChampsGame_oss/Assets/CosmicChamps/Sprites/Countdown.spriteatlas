@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Countdown
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 5eed500a4c3d045a9b3063672bf83b73, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - b64fa2e0b2bb34150911a33a2699d675: 21300000
+    - b51281715e81e43d8a88a6758310d199: 21300000
+    - 527372622c7354baeabfc9f1662df914: 21300000
+    - 7e4e2086106d346e58f7a0aa1fcdda39: 21300000
+    - b84640c8a0a1b4b509245854332dc872: 21300000
+    - 90a85d899f9254d2b96f25002311c3c9: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b64fa2e0b2bb34150911a33a2699d675, type: 3}
+  - {fileID: 21300000, guid: b51281715e81e43d8a88a6758310d199, type: 3}
+  - {fileID: 21300000, guid: 527372622c7354baeabfc9f1662df914, type: 3}
+  - {fileID: 21300000, guid: 7e4e2086106d346e58f7a0aa1fcdda39, type: 3}
+  - {fileID: 21300000, guid: b84640c8a0a1b4b509245854332dc872, type: 3}
+  - {fileID: 21300000, guid: 90a85d899f9254d2b96f25002311c3c9, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - PlayerColorFade
+  - PlayerAName
+  - CountdownTimerEmpty
+  - PlayerExpIcon
+  - PlayerBName
+  - CountdownTimerFull
+  m_RenderDataMap: {}
+  m_Tag: Countdown
+  m_IsVariant: 0

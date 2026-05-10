@@ -1,0 +1,23 @@
+{
+  "ClientFilter": {
+    "Maintenance": false,
+    "BuildVersions": {
+      "Platforms": {
+      },
+      "Default": {
+        "Min": 68,
+        "Current": 68
+      }
+    },
+    "XUrl": "<x_url>>",
+    "TelegramUrl": "<telegram_url>",
+    "DiscordUrl": "<discord_url>"
+  },
+  "WalletBridges": {
+    "listUrl": "",
+    "fallbackBridge": "https://wallet-connect-b.perawallet.app"
+  },
+  "GuestAccounts": {
+    "EmailDomain": "guests.cosmicchamps.com"
+  }
+}

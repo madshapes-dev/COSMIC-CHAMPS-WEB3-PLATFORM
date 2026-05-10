@@ -1,0 +1,46 @@
+{
+	"ServerProcesses": [
+		{
+			"LaunchPath": "/local/game/CosmicChampsServer",
+			"Parameters": "-LogFile /local/game/30000.log -Port 30000",
+			"ConcurrentExecutions": 1
+		},
+		{
+			"LaunchPath": "/local/game/CosmicChampsServer",
+			"Parameters": "-LogFile /local/game/30010.log -Port 30010",
+			"ConcurrentExecutions": 1
+		},
+		{
+			"LaunchPath": "/local/game/CosmicChampsServer",
+			"Parameters": "-LogFile /local/game/30020.log -Port 30020",
+			"ConcurrentExecutions": 1
+		},
+		{
+			"LaunchPath": "/local/game/CosmicChampsServer",
+			"Parameters": "-LogFile /local/game/30030.log -Port 30030",
+			"ConcurrentExecutions": 1
+		},
+		{
+			"LaunchPath": "/local/game/CosmicChampsServer",
+			"Parameters": "-LogFile /local/game/30040.log -Port 30040",
+			"ConcurrentExecutions": 1
+		},
+		{
+			"LaunchPath": "/local/game/CosmicChampsServer",
+			"Parameters": "-LogFile /local/game/30050.log -Port 30050",
+			"ConcurrentExecutions": 1
+		},
+		{
+			"LaunchPath": "/local/game/CosmicChampsServer",
+			"Parameters": "-LogFile /local/game/30060.log -Port 30060",
+			"ConcurrentExecutions": 1
+		},
+		{
+			"LaunchPath": "/local/game/CosmicChampsServer",
+			"Parameters": "-LogFile /local/game/30070.log -Port 30070",
+			"ConcurrentExecutions": 1
+		}
+	],
+	"MaxConcurrentGameSessionActivations": 8,
+	"GameSessionActivationTimeoutSeconds": 120
+}

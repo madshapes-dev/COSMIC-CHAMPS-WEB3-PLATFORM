@@ -1,0 +1,11 @@
+#!/bin/bash
+
+SOURCE=$1
+
+source $SOURCE/version
+
+CMD="aws --region eu-central-1 s3 cp --recursive $SOURCE s3://builds.cosmicchamps/$ENV/$VERSION/WebGL --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers"
+
+
+eval "$CMD --exclude '*' --include '*.gz' --content-encoding 'gzip'"
+eval "$CMD --exclude '*.gz'"

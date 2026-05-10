@@ -1,0 +1,2 @@
+Asset: Hovl Studio VFX Assets (3D Lasers, projectiles, toon effects)
+URL: https://assetstore.unity.com/publishers/28391

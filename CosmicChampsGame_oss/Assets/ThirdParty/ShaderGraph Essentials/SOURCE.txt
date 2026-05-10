@@ -1,0 +1,2 @@
+Asset: ShaderGraph Essentials
+URL: https://assetstore.unity.com/packages/tools/particles-effects/shadergraph-essentials-141671

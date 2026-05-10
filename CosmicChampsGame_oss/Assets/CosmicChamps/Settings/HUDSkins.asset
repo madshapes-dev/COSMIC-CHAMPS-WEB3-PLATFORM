@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd3c29a2e6fc47e0bfe77c62aebb1d61, type: 3}
+  m_Name: HUDSkins
+  m_EditorClassIdentifier: 
+  _fallbackSkin:
+    _id: base
+    _deckPanelSprite: {fileID: 21300000, guid: 26c46b23d981547aeb8be92d7a28688a, type: 3}
+    _timePanelSprite: {fileID: 21300000, guid: 78cb789e2133b44a8a8b551e2cee1cd9, type: 3}
+    _overtimeTimePanelSprite: {fileID: 21300000, guid: 2432fe6a54c344b119099c11a3192fce,
+      type: 3}
+    _energyBackground: {fileID: 21300000, guid: 69fbea90c2e124eca92d8d2cfe8e8988,
+      type: 3}
+  _skins:
+  - _id: bronze
+    _deckPanelSprite: {fileID: 21300000, guid: 8349cc97b395643e48ca88e1aa2052b9, type: 3}
+    _timePanelSprite: {fileID: 21300000, guid: 6de5f167f38264e5fba9be082326b31d, type: 3}
+    _overtimeTimePanelSprite: {fileID: 21300000, guid: 6ca05529b0ea6454093aad7cdb7cf162,
+      type: 3}
+    _energyBackground: {fileID: 21300000, guid: 020aadacac645410593d48bf87722563,
+      type: 3}
+  - _id: diamond
+    _deckPanelSprite: {fileID: 21300000, guid: e2e2209283cb249169e34efaa17dca5f, type: 3}
+    _timePanelSprite: {fileID: 21300000, guid: 1a6b9ce77565c453c9400e7cf7a2076d, type: 3}
+    _overtimeTimePanelSprite: {fileID: 21300000, guid: 7d76f05077d96468c98541a77fb4b4a7,
+      type: 3}
+    _energyBackground: {fileID: 21300000, guid: 7cd05b43bc8ba422ba1e8143313723ec,
+      type: 3}
+  - _id: gold
+    _deckPanelSprite: {fileID: 21300000, guid: 23c8586cee844462394ccfa415f19bb8, type: 3}
+    _timePanelSprite: {fileID: 21300000, guid: 04d80910b39a145379346398d730f7cd, type: 3}
+    _overtimeTimePanelSprite: {fileID: 21300000, guid: 77115307e31cc49d2b42f57eab70d6c0,
+      type: 3}
+    _energyBackground: {fileID: 21300000, guid: 152200c29f8524486a478d874c322284,
+      type: 3}
+  - _id: silver
+    _deckPanelSprite: {fileID: 21300000, guid: d1bf4db84bc3c49728fa3268d7646165, type: 3}
+    _timePanelSprite: {fileID: 21300000, guid: 07f10a9c71c0d470a89f562df05bb81a, type: 3}
+    _overtimeTimePanelSprite: {fileID: 21300000, guid: e41f7a49ce4504782bba94160cb038f4,
+      type: 3}
+    _energyBackground: {fileID: 21300000, guid: 643265b259b484fce98d81538ab83d23,
+      type: 3}

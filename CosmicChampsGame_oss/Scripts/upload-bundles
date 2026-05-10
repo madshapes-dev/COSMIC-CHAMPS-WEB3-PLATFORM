@@ -1,0 +1,18 @@
+#!/bin/bash
+
+ENV=$1
+VERSION=$2
+SOURCE=$3
+
+if [ -d "$SOURCE" ];
+then
+    PLATFORM="$(basename -- $SOURCE)"
+    CP_ARGS="--recursive $SOURCE s3://bundles.cosmicchamps/$ENV/$VERSION/$PLATFORM"
+else
+	DIRECTORY="$(dirname $SOURCE)"
+	PLATFORM="$(basename -- $DIRECTORY)"
+	CP_ARGS="$SOURCE s3://bundles.cosmicchamps/$ENV/$VERSION/$PLATFORM/"
+fi
+
+CMD="aws --region eu-central-1 s3 cp $CP_ARGS --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers"
+eval $CMD

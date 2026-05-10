@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Hammer
+  m_EditorClassIdentifier: 
+  m_GroupName: Hammer
+  m_GUID: 52fdeef6ba63740339976b35519f4907
+  m_SerializeEntries:
+  - m_GUID: 050196a1667bd4aba97388c02ae4001f
+    m_Address: units/hammer_798409700
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - SharkAB
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 054b45d328f8e49678395eb71029a426
+    m_Address: previews/hammer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1657eaeef0a9d434ab194c0c74072a60
+    m_Address: units/hammer_798410164
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - GalileoAB
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 187661f36ca418c43b1d0b089647d930
+    m_Address: cards/hammer_798408294
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - TorusAB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31ce12861f3c94038a49668d64205990
+    m_Address: units/hammer_798410307
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - GalileoAB
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fb8700341626d54cbab8b55a27b9678
+    m_Address: cards/hammer_798409130
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - CocoAB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40d69cd3fa79d474485ecc766c41af6c
+    m_Address: units/hammer_798409552
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - SharkAB
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 449e22c6f58324fc7abf1764bcf00584
+    m_Address: units/hammer_798409333
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - CocoAB
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 549d65db496bd4a3ab8f48e07de02743
+    m_Address: units/hammer_798408694
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - FrozenstarAB
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57f33398e7581f04c9a0d83ea4d31993
+    m_Address: cards/hammer_798408945
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - FrozenstarAB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a96c246bc983ea418286013eb2be6f9
+    m_Address: cards/hammer_798409863
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - FreebooterAB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d43445370c504c4a9ca9ed9c30a0577
+    m_Address: units/hammer_798409130
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - CocoAB
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c99686ba7bde7e4ba32caedd5583de9
+    m_Address: cards/hammer_798410021
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - FreebooterAB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 762d16a04bad34a5092b2359dc198c03
+    m_Address: cards/hammer_798410164
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - GalileoAB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e3e8d2e8600a0a499336975aac7a6ec
+    m_Address: cards/hammer_798409333
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - CocoAB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91254c2c808b2ac4184e2e8b5274a5af
+    m_Address: cards/hammer_798409552
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - SharkAB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96bb7e5fe3de1485196c761f5707f329
+    m_Address: cards/hammer_798408523
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - TorusAB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9db0cf71862e94d21a387c5a7d7cdbc7
+    m_Address: units/hammer_798408945
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - FrozenstarAB
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a10d904b22d4d46d7b954a2555d63ae0
+    m_Address: units/hammer_798408523
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - TorusAB
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1bd4af8c6e69420d97ce5cee9ad3205
+    m_Address: units/hammer_798410021
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - FreebooterAB
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a32dabc02fa1347979dcf5480d3030a0
+    m_Address: units/hammer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab82dd60b80d34a748dc6d539a65bfce
+    m_Address: units/hammer_798408294
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - TorusAB
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae6fc797b15cfbf42925bc5eb30bcbb1
+    m_Address: cards/hammer_798410307
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - GalileoAB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b58467081b154614bae08f1e7589a0b4
+    m_Address: cards/hammer_798408694
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - FrozenstarAB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c89ee2ba060334ba1853d93467a48ad8
+    m_Address: units/hammer_798409863
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - FreebooterAB
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef7f928e25e1d324582bf5e023e414fb
+    m_Address: cards/hammer_798409700
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - SharkAB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd331940cdbf448af8a2e9c0d349ec63
+    m_Address: cards/hammer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cea574451253e4accad3a88682f7a4c4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 41752105f59384ba5bb915c0ec238652, type: 2}
+    - {fileID: 11400000, guid: 293d55f4bea8f4a75b66cf5049e87c55, type: 2}

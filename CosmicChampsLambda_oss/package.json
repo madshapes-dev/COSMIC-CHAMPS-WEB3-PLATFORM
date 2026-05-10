@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "algosdk": "^2.8.0",
+    "zip": "^1.2.0"
+  }
+}

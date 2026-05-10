@@ -1,0 +1,32 @@
+﻿{
+  "profiles": {
+    "Dev": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Dev.macOS": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MACOS": "true",
+        "LOCAL_APPCONFIG": "true"
+      }
+    },
+    "TestingB.macOS": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "TestingB",
+        "MACOS": "true",
+        "LOCAL_APPCONFIG": "true"
+      }
+    }
+  }
+}

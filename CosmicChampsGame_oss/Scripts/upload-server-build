@@ -1,0 +1,13 @@
+#!/bin/bash
+
+SOURCE=$1
+
+source $SOURCE/version
+
+if [ -d "$SOURCE/CosmicChampsServer_BackUpThisFolder_ButDontShipItWithYourGame" ]; then
+	mv -f $SOURCE/CosmicChampsServer_BackUpThisFolder_ButDontShipItWithYourGame $SOURCE/../
+fi
+cp -r server-install/* $SOURCE/
+CMD="aws gamelift upload-build --name CosmicChamps --build-version $ENV-$VERSION-$BUILD --build-root $SOURCE --server-sdk-version 5.2.0 --operating-system AMAZON_LINUX_2023 --region eu-central-1"
+
+eval $CMD

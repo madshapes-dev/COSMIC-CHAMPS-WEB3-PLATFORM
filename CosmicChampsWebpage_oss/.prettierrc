@@ -1,0 +1,14 @@
+{
+	"plugins": ["prettier-plugin-svelte", "prettier-plugin-organize-attributes", "prettier-plugin-tailwindcss"],
+	"pluginSearchDirs": false,
+	"svelteBracketNewLine": true,
+	"svelteIndentScriptAndStyle": true,
+	"svelteSortOrder": "options-scripts-markup-styles",
+	"allowShorthand": true,
+	"useTabs": true,
+	"tabWidth": 2,
+	"singleQuote": true,
+	"trailingComma": "none",
+	"printWidth": 150,
+	"attributeGroups": ["$CODE_GUIDE"]
+}

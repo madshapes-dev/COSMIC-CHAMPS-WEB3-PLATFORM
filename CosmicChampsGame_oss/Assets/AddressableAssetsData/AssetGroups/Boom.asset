@@ -1,0 +1,286 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: BOOM
+  m_EditorClassIdentifier: 
+  m_GroupName: BOOM
+  m_GUID: 2740f3132572b407cb3e3ea4948aa992
+  m_SerializeEntries:
+  - m_GUID: 084ab992c033171459bc7ef49354f144
+    m_Address: cards/boom_500100000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d051bc7cabb549a7ab45f5e4fc55383
+    m_Address: units/boom_500200000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fe64323014bb4cfb974ff5e1d0c0c2e
+    m_Address: units/boom_300200000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12995cf3ce6196141afc3a304e110a67
+    m_Address: cards/boom_600200000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f05c83c99997b74f877891179a8a375
+    m_Address: cards/boom_400200000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36e6a97bc8fea478b8f8501307954a62
+    m_Address: units/boom_400200000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c96cce1613174d369e80049142775bd
+    m_Address: units/boom_600100000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46522ab0c984c3b4bbaabbbe89b576da
+    m_Address: cards/boom_600100000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5094545994bbfce479353a5f9149f692
+    m_Address: cards/boom_300100000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ca5fb7190e003d468b402009d10202f
+    m_Address: cards/boom_800100000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63cf71b16bff1416f81f11563f1c93a5
+    m_Address: units/boom_800200000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64c008212f3cd46b6bd931128df96cd9
+    m_Address: units/boom_300100000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7367250520116d8439b30da56b5cc0d6
+    m_Address: cards/boom_400100000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73b5340e468ab1945b225a91c1d79bd1
+    m_Address: cards/boom_100000000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a993ee7642710240a97530ce778d2e9
+    m_Address: cards/boom_100100000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 926338a56f479984d972e22730f4daf1
+    m_Address: cards/boom_200200000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 980cad57472fc1f48a2657f4c06fda86
+    m_Address: cards/boom_300200000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9da41374de5fe4b1ab4b9cedb5a5f7f1
+    m_Address: units/boom_200200000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b22dd013c629742c28259c0ea813297c
+    m_Address: units/boom_100100000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b75f412fbe7874115b0ee6cefd5aaa73
+    m_Address: units/boom_500100000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9a899c99557649eab7c8cf6baaa7489
+    m_Address: previews/boom
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9dabbb47f5fa410ba08e2ff2e675ae4
+    m_Address: units/boom
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba422423ad5e447eab1910bbfa2193cf
+    m_Address: units/boom_400100000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c345be15e3aa9494b98b638eca65d754
+    m_Address: cards/boom_700200000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ced210e643dd14fcfa568996efe5e8ad
+    m_Address: units/boom_700200000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d075b0d6b4db14ce1bb093449cefb144
+    m_Address: units/boom_700100000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d27331effe3a941c986e98e929746885
+    m_Address: units/boom_600200000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db97ee396d62fad45bcbeeee11a7d912
+    m_Address: cards/boom_500200000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e220fa1ceb3fc4576b1eea8ea3f76dbb
+    m_Address: cards/boom
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6c8cf3f0b50aac439c4ea629f0be158
+    m_Address: cards/boom_800200000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef93e9dd84b3c3e4783803217539db6a
+    m_Address: cards/boom_700100000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f72726f51a2817f42897ea06fc8258b3
+    m_Address: cards/boom_200100000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8ba6a46d6ba748c6ade19079a4c0a62
+    m_Address: units/boom_800100000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa6220636701a4a42a7329ad04da68c6
+    m_Address: units/boom_200100000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fad7fc1517b3d4d1fbbb2fadae1cda1d
+    m_Address: units/boom_100000000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cea574451253e4accad3a88682f7a4c4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d2dec7aee720a45199c8f926ac0b2dc6, type: 2}
+    - {fileID: 11400000, guid: 4d4ce4f16425244dfb99eb2c2af85156, type: 2}

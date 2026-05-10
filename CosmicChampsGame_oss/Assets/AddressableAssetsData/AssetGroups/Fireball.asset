@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Fireball
+  m_EditorClassIdentifier: 
+  m_GroupName: Fireball
+  m_GUID: 7e403bbfacdaa4d8291e2454584fc76f
+  m_SerializeEntries:
+  - m_GUID: 0cf2ef64eafd23b45a6164006a620f62
+    m_Address: cards/fireball_100000000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26e885d34a0a59e40afd52df3148d143
+    m_Address: cards/fireball_600000000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c14022e816bf427380b77c0c208c6fa
+    m_Address: units/fireball
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d68324c88452584cbfce19949680feb
+    m_Address: cards/fireball_500000000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45fc7e7fa5f928d4eaa481b5bd7b1050
+    m_Address: cards/fireball_700000000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47e67588c42da48ac98810e9c8f1b4f6
+    m_Address: units/fireball_300000000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5233c5793be61429f919f7467dcada95
+    m_Address: previews/fireball
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ae68bd80ea976349903659d77ecadbf
+    m_Address: units/fireball_600000000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d6e4641896c140e8a07e9eed2afb300
+    m_Address: units/fireball_200000000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 792b91220a608437482f9eca36571e5c
+    m_Address: cards/fireball
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f50436955615bd4283e4dfca83100e7
+    m_Address: cards/fireball_300000000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 965e3fdd7f9076d4bb926b3dfbbd0787
+    m_Address: units/fireball_700000000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f942263eb269454c8c1766cf87f754f
+    m_Address: cards/fireball_400000000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b27b61cda488d1b4b9aebedfd1b396dd
+    m_Address: cards/fireball_200000000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bec7fc64b7997426f9499d9fe66bb1b5
+    m_Address: units/fireball_100000000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8b257628a1bf4a2cbc3fa5cd54faa51
+    m_Address: units/fireball_400000000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff2e8bf582168014090e3482e7255bcd
+    m_Address: units/fireball_500000000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cea574451253e4accad3a88682f7a4c4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c06ce62c820f346f095687b7bb175403, type: 2}
+    - {fileID: 11400000, guid: 71570be560ddf48f18a728448429f0f9, type: 2}

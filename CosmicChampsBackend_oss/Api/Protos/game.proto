@@ -1,0 +1,551 @@
+syntax = "proto3";
+
+import "google/protobuf/any.proto";
+
+option csharp_namespace = "CosmicChamps.Api.Services";
+
+package Api;
+
+service Game {
+  rpc StartMatchmaking (StartMatchmakingRequest) returns (stream StartMatchmakingReply);
+  rpc StopMatchmaking (StopMatchmakingRequest) returns (StopMatchmakingReply);
+  rpc GetGameData (GameDataRequest) returns (GameDataReply);
+  rpc GetPlayerData (PlayerDataRequest) returns (PlayerDataReply);
+  rpc StartGameSession (StartGameSessionRequest) returns (StartGameSessionReply);
+  rpc StopGameSession (StopGameSessionRequest) returns (StopGameSessionReply);
+  rpc ReportError (ReportErrorRequest) returns (ReportErrorReply);
+  rpc UpdateDecks (UpdateDecksRequest) returns (UpdateDecksReply);
+  rpc GetNews (NewsRequest) returns (NewsReply);
+  rpc CompleteSignUp (CompleteSignUpRequest) returns (CompleteSignUpReply);
+  rpc SaveProfile (SaveProfileRequest) returns (SaveProfileReply);
+  rpc UnbindAlgorandWallet (UnbindWalletRequest) returns (UnbindWalletReply);
+  rpc UnbindImmutableWallet (UnbindWalletRequest) returns (UnbindWalletReply);
+  rpc BindEmailToGuest (BindEmailToGuestRequest) returns (BindEmailToGuestReply);
+  rpc ConfirmBindEmailToGuest (ConfirmBindEmailToGuestRequest) returns (ConfirmBindEmailToGuestReply);
+  rpc CardLevelUp (CardLevelUpRequest) returns (CardLevelUpReply);
+  rpc ClearBattleRewards (ClearBattleRewardsRequest) returns (ClearBattleRewardsReply);
+  rpc RedeemPromoCode (RedeemPromoCodeRequest) returns (RedeemPromoCodeReply);
+  rpc BindImmutableWallet (BindImmutableWalletRequest) returns (BindImmutableWalletReply);
+}
+
+message BindImmutableWalletRequest {
+  string immutableToken = 1;
+}
+
+message BindImmutableWalletReply {
+  PlayerData player = 1;
+}
+
+message RedeemPromoCodeRequest {
+  string promoCode = 1;
+}
+
+message RedeemPromoCodeReply {
+  string message = 1;
+  PlayerData player = 2;
+}
+
+message ClearBattleRewardsRequest {
+}
+
+message ClearBattleRewardsReply {
+}
+
+message CardLevelUpRequest {
+  string cardId = 1;
+}
+
+message CardLevelUpReply {
+  int32 level = 1;
+  PlayerCardShards cardShards = 2;
+  int32 universalShards = 3;
+  int32 playerLevel = 4;
+  int32 playerExp = 5;
+}
+
+message BindEmailToGuestRequest {
+  string deviceId = 1;
+  string email = 2;
+}
+
+message ConfirmBindEmailToGuestRequest {
+  string deviceId = 1;
+  string email = 2;
+  string password = 3;
+  string token = 4;
+  string code = 5;
+}
+
+message ConfirmBindEmailToGuestReply {
+  PlayerData playerData = 1;
+}
+
+message BindEmailToGuestReply {
+}
+
+message Damage {
+  repeated int32 value = 1;
+  float rate = 2;
+  float range = 3;
+  repeated TargetType triggers = 4;
+  repeated TargetType splashVictims = 5;
+}
+
+message UnitViewParams {
+  float moveAnimationSpeed = 1;
+  float turnTargetDuration = 2;
+  float attackDuration = 3;
+  float damageDelay = 4;
+  float deathDuration = 5;
+  float deathDamageDelay = 6;
+  float deployDuration = 7;
+}
+
+enum MovementType {
+  MOVEMENT_TYPE_GROUND = 0;
+  MOVEMENT_TYPE_AIR = 1;
+  MOVEMENT_TYPE_SPELL = 2;
+}
+
+enum TargetType {
+  TARGET_TYPE_BASE = 0;
+  TARGET_TYPE_GROUND = 1;
+  TARGET_TYPE_AIR = 2;
+  TARGET_TYPE_SPELL = 3;
+}
+
+message UnitStats {
+  repeated int32 hp = 1;
+  float speed = 2;
+  float detectRange = 3;
+  oneof damage {Damage damageValue = 4;}
+  oneof deathDamage {Damage deathDamageValue = 5;}
+}
+
+message UnitBoost {
+  string id = 1;
+  oneof hp {int32 hpValue = 2;}
+  oneof damage {int32 damageValue = 5;}
+  oneof deathDamage {int32 deathDamageValue = 6;}
+}
+
+message UnitData {
+  string id = 1;
+  UnitStats stats = 2;
+  repeated string aliases = 3;
+  UnitViewParams viewParams = 4;
+  MovementType movementType = 5;
+  string spawnArea = 6;
+  string boostId = 7;
+  bool disabled = 8;
+  string type = 9;
+}
+
+message Vector2 {
+  float x = 1;
+  float y = 2;
+}
+
+message CardSkinData {
+  string id = 1;
+  string displayName = 2;
+  string description = 3;
+  string rarityNumber = 4;
+  string rarity = 5;
+}
+
+message CardData {
+  string id = 1;
+  repeated CardSkinData skins = 2;
+  int32 energy = 3;
+  int32 batchSize = 4;
+  repeated Vector2 batchOffsets = 5;
+  string displayName = 6;
+  string description = 7;
+  bool disabled = 8;
+  string upgradeShardId = 9;
+  string unitId = 10;
+  string rarityNumber = 11;
+  string rarity = 12;
+  int32 levelLock = 13;
+}
+
+message ShipCardData {
+  string id = 1;
+  string mainId = 2;
+  string shieldId = 3;
+  string turretId = 4;
+  string displayName = 5;
+  string description = 6;
+}
+
+message EnergyGrowRate {
+  int32 from = 1;
+  float rate = 2;
+  string message = 3;
+}
+
+enum BotTag {
+  BOT_TAG_PRIZE = 0;
+}
+
+message BotLevelDeckCard {
+  string id = 1;
+  string skin = 2;
+  int32 level = 3;
+}
+
+message BotLevel {
+  string id = 1;
+  string nickname = 2;
+  string walletId = 3;
+  int32 rating = 4;
+  int32 level = 5;
+  int32 ratingThreshold = 6;
+  int32 levelThreshold = 7;
+  repeated BotLevelDeckCard deck = 8;
+  repeated UnitBoost boosts = 9;
+}
+
+message Bot {
+  string id = 1;
+  repeated BotTag tags = 2;
+  int32 matchmakingWeight = 3;
+  repeated BotLevel levels = 4;
+}
+
+message DeckPreset {
+  string id = 1;
+  string name = 2;
+  repeated PlayerDeckCard cards = 3;
+}
+
+message CardProgression {
+  int32 cumulativeCost = 1;
+  int32 levelUpCost = 2;
+  int32 cosgCost = 3;
+  int32 playerExp = 4;
+}
+
+message PlayerProgression {
+  int32 levelUpCost = 1;
+  int32 cardLevelCap = 2;
+}
+
+message SocialUrls {
+  string xUrl = 1;
+  string discordUrl = 2;
+  string telegramUrl = 3;
+}
+
+message MissionReward {
+  int32 amount = 1;
+  string kind = 2;
+}
+
+message Mission
+{
+  string title = 1;
+  int32 gamesCount = 2;
+  MissionReward reward = 3;
+}
+
+message Missions
+{
+  repeated Mission list = 1;
+  bool enabled = 2;
+  string url = 3;
+}
+
+message GameData {
+  repeated UnitData units = 1;
+  repeated CardData cards = 2;
+  int32 initialEnergy = 3;
+  int32 maxEnergy = 4;
+  int32 matchDuration = 5;
+  repeated EnergyGrowRate energyGrowRates = 6;
+  int32 matchCountdown = 7;
+  int32 matchCountdownDelay = 8;
+  float reconnectionTimeout = 10;
+  float unitRepathInterval = 11;
+  int32 overtimeDuration = 12;
+  int32 forfeitPossibleDelay = 13;
+  repeated Bot bots = 14;
+  repeated DeckPreset deckPresets = 15;
+  DeckPreset customDeckPreset = 16;
+  repeated ShipCardData shipCards = 17;
+  repeated UnitData baseUnits = 18;
+  int32 prizeBotRate = 19;
+  int32 advancedBotRatingThreshold = 20;
+  int32 level2Chance = 22;
+  int32 emojiDuration = 23;
+  repeated CardProgression cardProgressions = 24;
+  int32 winnerExpsBonus = 25;
+  float winnerExpsScoreBonus = 26;
+  int32 loserExpsBonus = 27;
+  float loserExpsScoreBonus = 28;
+  repeated string inventoryShardsOrder = 29;
+  string universalShardsId = 30;
+  repeated PlayerProgression playerProgressions = 31;
+  int32 playerPrizeBotRate = 32;
+  SocialUrls socialUrls = 33;
+  Missions missions = 34;
+}
+
+message GameDataRequest {
+}
+
+message GameDataReply {
+  GameData gameData = 1;
+}
+
+message PlayerDataRequest {
+}
+
+message PlayerUnit {
+  string id = 1;
+  repeated string skins = 2;
+}
+
+message PlayerCard {
+  string id = 1;
+  int32 level = 2;
+}
+
+message PlayerDeckCard {
+  string id = 1;
+  string skin = 2;
+}
+
+message PlayerDeckCardOptional {
+  oneof card {
+    PlayerDeckCard cardValue = 1;
+  }
+}
+
+message PlayerDeck {
+  string presetId = 1;
+  repeated PlayerDeckCardOptional cards = 2;
+}
+
+message News {
+  string id = 1;
+  string header = 2;
+  string text = 3;
+  string link = 4;
+}
+
+message PlayerShipCard {
+  string id = 1;
+  repeated string skins = 2;
+}
+
+message PlayerShipSlotCard {
+  string id = 1;
+  string skin = 2;
+}
+
+message PlayerShipSlot {
+  oneof card {
+    PlayerShipSlotCard cardValue = 1;
+  }
+}
+
+enum BattleResult {
+  BATTLE_RESULT_VICTORY = 0;
+  BATTLE_RESULT_DEFEAT = 1;
+  BATTLE_RESULT_DRAWN = 2;
+  BATTLE_RESULT_MISSION = 3;
+}
+
+enum AccountType {
+  ACCOUNT_TYPE_STANDARD = 0;
+  ACCOUNT_TYPE_GUEST = 1;
+  ACCOUNT_TYPE_BOT = 2;
+  ACCOUNT_TYPE_IMMUTABLE = 3;
+}
+
+message PlayerBattleReward {
+  repeated PlayerCardShards shards = 1;
+  int32 oldRating = 2;
+  int32 newRating = 3;
+  BattleResult battleResult = 4;
+}
+
+message PlayerData {
+  string id = 1;
+  string nickname = 2;
+  repeated PlayerCard cards = 3;
+  repeated PlayerDeck decks = 4;
+  int32 activeDeck = 5;
+  string walletId = 6;
+  string hudSkin = 7;
+  int32 rating = 8;
+  repeated UnitBoost boosts = 9;
+  string tournamentId = 10;
+  repeated PlayerShipCard shipCards = 11;
+  PlayerShipSlot shipSlot = 12;
+  int32 nicknameChangeCount = 13;
+  bool signUpCompleted = 14;
+  string email = 15;
+  repeated string emojis = 16;
+  string linkedWalletId = 17;
+  int32 universalShards = 19;
+  repeated PlayerCardShards cardShards = 20;
+  repeated PlayerUnit units = 21;
+  repeated PlayerBattleReward battleRewards = 22;
+  int32 level = 23;
+  int32 exp = 24;
+  int32 gamesPlayed = 25;
+  AccountType accountType = 26;
+  string immutableWalletId = 27;
+  int32 missionGamesPlayed = 28;
+}
+
+message PlayerCardShards {
+  string id = 1;
+  int32 amount = 2;
+}
+
+message PlayerDataReply {
+  PlayerData playerData = 1;
+}
+
+message StartMatchmakingRequest {
+  string tournamentId = 1;
+}
+
+message PlayerGameSession {
+  string ipAddress = 1;
+  int32 port = 2;
+  string dnsName = 3;
+  string gameSessionId = 4;
+  string playerSessionId = 5;
+  int32 webGLPort = 6;
+}
+
+message StartMatchmakingReply {
+  oneof result {
+    PlayerGameSession gameSession = 1;
+    string ticketId = 2;
+    bool timeout = 3;
+    bool canceled = 4;
+  }
+}
+
+message StopMatchmakingRequest {
+  string ticketId = 1;
+}
+
+message StopMatchmakingReply {
+}
+
+message GameSession {
+  string id = 1;
+  string ipAddress = 2;
+  int32 port = 3;
+  string dnsName = 4;
+  repeated string playerIds = 5;
+  string tournamentId = 6;
+  string matchmakerConfigurationArn = 7;
+}
+
+message StartGameSessionRequest {
+  GameSession gameSession = 1;
+}
+
+message StartGameSessionReply {
+  repeated PlayerData Players = 1;
+  string level = 2;
+}
+
+message StopGameSessionRequest {
+  string gameSessionId = 1;
+  string winnerWalletId = 2;
+  string winnerId = 3;
+  bool drawn = 4;
+}
+
+message StopGameSessionReply {
+}
+
+message DeviceGraphics {
+  int32 id = 1;
+  string name = 2;
+  string type = 3;
+  string vendor = 4;
+  int32 vendorID = 5;
+  string version = 6;
+  int32 memorySize = 7;
+}
+
+message DeviceOperatingSystem {
+  string name = 1;
+  string family = 2;
+}
+
+message Device {
+  string id = 1;
+  string model = 2;
+  DeviceGraphics graphics = 3;
+  DeviceOperatingSystem operatingSystem = 4;
+}
+
+message ReportErrorRequest {
+  string version = 1;
+  string platform = 2;
+  string date = 3;
+  string gameSession = 4;
+  string message = 5;
+  string stacktrace = 6;
+  Device device = 7;
+}
+
+message ReportErrorReply {
+  string reportId = 1;
+}
+
+message DeckUpdate {
+  int32 deckIndex = 1;
+  string presetId = 2;
+  repeated PlayerDeckCardOptional cards = 3;
+}
+
+message UpdateDecksRequest {
+  repeated DeckUpdate deckUpdates = 1;
+  int32 ActiveDeckIndex = 2;
+}
+
+message UpdateDecksReply {
+}
+
+message NewsRequest {
+}
+
+message NewsReply {
+  News news = 1;
+}
+
+message CompleteSignUpRequest {
+  string nickname = 1;
+}
+
+message CompleteSignUpReply {
+}
+
+message SaveProfileRequest {
+  oneof nickname {
+    string nicknameValue = 1;
+  }
+}
+
+message SaveProfileReply {
+  int32 nicknameChangeCount = 1;
+}
+
+message UnbindWalletRequest {
+}
+
+message UnbindWalletReply {
+  PlayerData player = 1;
+}

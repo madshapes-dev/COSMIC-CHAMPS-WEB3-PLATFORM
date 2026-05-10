@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+      <UserSecretsId>e33759ac-f661-4542-91e4-7d5869d44d3e</UserSecretsId>
+      <AssemblyName>CosmicChamps.Auth</AssemblyName>
+      <RootNamespace>CosmicChamps.Auth</RootNamespace>
+  </PropertyGroup>
+
+    <ItemGroup>
+        <Protobuf Include="Protos\auth.proto" GrpcServices="Server" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Amazon.Extensions.Configuration.SystemsManager" Version="4.0.0" />
+        <PackageReference Include="AWSSDK.CognitoIdentityProvider" Version="3.7.1.95" />
+        <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.402.1" />
+        <PackageReference Include="Grpc.AspNetCore" Version="2.45.0-pre1" />
+        <PackageReference Include="Grpc.AspNetCore.Web" Version="2.45.0-pre1" />
+        <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="6.17.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ClientFilterInterceptor\ClientFilterInterceptor.csproj" />
+      <ProjectReference Include="..\Common\Common.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Model\" />
+    </ItemGroup>
+
+</Project>

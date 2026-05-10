@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Tertius
+  m_EditorClassIdentifier: 
+  m_GroupName: Tertius
+  m_GUID: 9838ec1e8f9e342f594b9a6847c3c0bb
+  m_SerializeEntries:
+  - m_GUID: 0676aed9f06314c6e85a51b1f6bed362
+    m_Address: units/tertius_798407410
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a75e95ad789e440999610c280345285
+    m_Address: units/tertius_786131696
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1fb558f6e95054c13a42d06507085c28
+    m_Address: units/tertius_786131403
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36dd2a0c0d611484e9cc16567afaa656
+    m_Address: cards/tertiusiii
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49724796fe40c4c45bf3c358621a594a
+    m_Address: units/tertius_786131264
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 523918eebff0a411fbae15522a81df51
+    m_Address: units/tertius_798408091
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ad88f9169f9d4af59a177f254385546
+    m_Address: cards/tertiusx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7375cb3b1589a41c9a350eaf01a26803
+    m_Address: units/tertius_798407610
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7dee6b23cb4794ceb9c8cb4fd01777a8
+    m_Address: previews/tertiusx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 820f361eefad4454eb93a5d6e3f53405
+    m_Address: units/tertius_798407031
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 915baf64eb38048c8bbe4759150549a7
+    m_Address: units/tertius_786131096
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9536faf3da1af48ae8b478f0856b8bba
+    m_Address: units/tertius
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa210a97dec514148b65832391764741
+    m_Address: units/tertius_798407177
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0abd59806ffd424c9286009d80883f0
+    m_Address: previews/tertiusiii
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5491d5730aa34c8abe4258e07f74abb
+    m_Address: units/tertius_798407875
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6b03fecc6cca42bd80d61b6ce0321bd
+    m_Address: units/tertius_786131555
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f97b1850cb920414588cc1c7848d600e
+    m_Address: units/tertius_786131874
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cea574451253e4accad3a88682f7a4c4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b039c0a7ac6524d0aae17583c21f8796, type: 2}
+    - {fileID: 11400000, guid: 68c8b470c70f14ac98017c49a5e4ec01, type: 2}

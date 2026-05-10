@@ -1,0 +1,36 @@
+﻿{
+  "profiles": {
+    "Dev": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "LOCAL_GAMEDATA": "true"
+      }
+    },
+    "Dev.macOS": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MACOS": "true",
+        "_LOCAL_GAMELIFT": "http://localhost:9080",
+        "LOCAL_APPCONFIG": "true",
+        "_LOCAL_DYNAMODB": "http://localhost:8000"
+      }
+    },
+    "TestingB.macOS": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "TestingB",
+        "MACOS": "true",
+        "LOCAL_GAMELIFT": "http://localhost:9080",
+        "LOCAL_GAMEDATA": "true"
+      }
+    }
+  }
+}

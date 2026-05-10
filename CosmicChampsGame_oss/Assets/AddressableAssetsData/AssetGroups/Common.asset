@@ -1,0 +1,464 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Common
+  m_EditorClassIdentifier: 
+  m_GroupName: Common
+  m_GUID: 8763739f1e1694ddd8b3733953ecdb55
+  m_SerializeEntries:
+  - m_GUID: 01dfa9d54592b4699aef0e2272e05f93
+    m_Address: Assets/CosmicChamps/Materials/OverlaySprite.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 097a9383e42be44ed908d6787108533f
+    m_Address: Assets/CosmicChamps/Units/Cybi/Basic/Textures/PILOT_NORMAL.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d8a591b64b95cf479a9dd0541d2c8e1
+    m_Address: Assets/CosmicChamps/Art/VFX/Whisp3_VFX_Unlit.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10c7bcd011587734480c49d7f4a04636
+    m_Address: Assets/CosmicChamps/Art/BaseShips/base_A_Glass 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1811d4f5d12ba6c4daf3db78b53c2373
+    m_Address: Assets/CosmicChamps/Art/BaseShips/base_ship.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 192278142fbb44c73929a2ac3c3e2d28
+    m_Address: Assets/CosmicChamps/Units/Hammer/Basic/Materials/Glass.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ab7a288b25014877a0d92792ba01b8e
+    m_Address: Assets/CosmicChamps/Units/Cybi/Basic/Animations/Animator.overrideController
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 268f4333011984357acbf7deba082259
+    m_Address: Assets/CosmicChamps/Units/Cybi/Basic/Textures/Mecha.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 270d31b836fbe7447a3cceed3c15ca75
+    m_Address: Assets/CosmicChamps/Art/BaseShips/base_shield_glow_effect A.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31321ba15b8f8eb4c954353edc038b1d
+    m_Address: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31f54a5ca4526d141bf82ca89d517fdd
+    m_Address: Assets/CosmicChamps/Art/BaseShips/base_shield_glow_effect B.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36e335017ad71d54fbb10842863188ae
+    m_Address: Packages/com.unity.render-pipelines.core/Runtime/FallbackShader.shader
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 383802b0859bf51439a46f2c8782d4d3
+    m_Address: Assets/CosmicChamps/Art/VFX/exhaust_anim.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bcd4d0e0327aed478d7dfff3012dfaa
+    m_Address: Assets/CosmicChamps/Art/BaseShips/base_A.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f965efabacfa43d1affff2596349d41
+    m_Address: Assets/CosmicChamps/Sprites/Battle/SpawnArea.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40651c85a7b77480eb15da54bed0409b
+    m_Address: Assets/CosmicChamps/Units/Coyote/Basic/Prefabs/LaserBeam.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41a164b15c45c21428925b395381abe8
+    m_Address: Assets/CosmicChamps/Art/Environments/Textures/stylized_desert_cliff_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 500d421cb44ddf243855db061427fe67
+    m_Address: Assets/CosmicChamps/Art/Environments/Materials/Skybox COS.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52d4eb0bd445fb746b15b5061b452fa7
+    m_Address: Assets/CosmicChamps/Art/Environments/Textures/sand_only_trim_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 582a918d4a2434ee89519d4bd9f3d6e8
+    m_Address: Assets/CosmicChamps/Shaders/OverlaySprite.shader
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f9e1316a6c86b9449f63d5065bc4b58
+    m_Address: Assets/CosmicChamps/Art/BaseShips/base_B_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6077e8a9c8f195e4ea90824b4932019b
+    m_Address: Assets/CosmicChamps/Art/VFX/exhaust_sand_effect.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60d2ab5d89b1c9a46a534231d5b19217
+    m_Address: Assets/CosmicChamps/Art/BaseShips/ship_exhaust.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6366eae529016a44b9768d774adf7957
+    m_Address: Assets/CosmicChamps/Art/Environments/Textures/noise/perlin_noise_scale6_128.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64b28f75012184e478ffa2f2559ed734
+    m_Address: Assets/CosmicChamps/Shaders/VertexColored_SimpleLit_SGE.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6850758f35a504c8192bed5b67350ada
+    m_Address: Assets/CosmicChamps/Units/Hammer/Basic/Textures/RoyalGiant_Combined_Albedo.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 688dbd579216335478ce6330ff7fc175
+    m_Address: Assets/CosmicChamps/Art/VFX/Textures/dust_smoke2_alpha.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 695e93b2c58d2ee4284acf4f9e61c2da
+    m_Address: Assets/CosmicChamps/Art/BaseShips/base_metal_shiny.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f6c9850b7a46844fad32ded302f703d
+    m_Address: Assets/CosmicChamps/Art/Environments/Textures/stylized_desert_cliff_trim_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75ff5874a2fc9f84db21e068e134c114
+    m_Address: Assets/CosmicChamps/Art/BaseShips/clear_glass.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a1cef92a6381874aa2387bad89d9e6d
+    m_Address: Assets/CosmicChamps/Art/Environments/Textures/noise/blueNoise 1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c5600c9d183f6c47b447bfdc04fff53
+    m_Address: Assets/CosmicChamps/Art/BaseShips/prop_energy_glow_effect.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81ab67a5a9fe14d4bb24385792912cc9
+    m_Address: Assets/CosmicChamps/Units/Cybi/Basic/Models/FiveBot1.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87fd7db8bcbbdca4188fa5cc60414cef
+    m_Address: Assets/CosmicChamps/Settings/Lighting/Lighting Settings.lighting
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88a7e83d839cac149af103d7d506fe92
+    m_Address: Assets/CosmicChamps/Art/BaseShips/base_light_B.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d2bb70cbf9db8d4da26e15b26e74248
+    m_Address: Packages/com.unity.render-pipelines.universal/Shaders/SimpleLit.shader
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 933532a4fcc9baf4fa0491de14d08ed7
+    m_Address: Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9343e7d6856bb4d73a359f4a7492a894
+    m_Address: Assets/CosmicChamps/Units/Hammer/Basic/Models/FourthBot_Base.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93c8a69628c7ab54aac1b8e637d8e4f7
+    m_Address: Assets/CosmicChamps/Shaders/GemEffect.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96413180b03c07549bf403729bf19730
+    m_Address: Assets/CosmicChamps/Art/Environments/Textures/noise/perlin_noise.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4098bf4e98e4e04b81228bca96545c0
+    m_Address: Assets/CosmicChamps/Art/VFX/DustSmoke.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a548d37698be0914b8799745b9f268b5
+    m_Address: Assets/CosmicChamps/Art/Environments/Textures/stylized_desert_cliff_trim_2_basegrey.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5e2979298de059438c00576fa6944a9
+    m_Address: Assets/CosmicChamps/Art/BaseShips/base_upgrades.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b30138e28e440884a83a1895bf851cc5
+    m_Address: Assets/CosmicChamps/Art/BaseShips/base_B_Glass.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b38f30732ba09ae45a6fca9c85ab233f
+    m_Address: Assets/CosmicChamps/Art/Environments/Textures/sand_only_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b86c6361691e24299bb814130e25e73a
+    m_Address: Assets/CosmicChamps/Units/Invin/Basic/Textures/Robot_Emission.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b92d0f6abea211d42a3cb6dfdc2f16f2
+    m_Address: Assets/CosmicChamps/Art/BaseShips/base_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bab8340fe4bc549518ca31e4a3756236
+    m_Address: Assets/CosmicChamps/Units/Hammer/Basic/Textures/RoyalGiant_Normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c06c8ecc40d2b50408e3c879aaf103fa
+    m_Address: Assets/CosmicChamps/Art/BaseShips/upgradee_core_light_effect.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c69c1234af57cd340b8a5c04dcf57ac9
+    m_Address: Assets/CosmicChamps/Art/Environments/Textures/stylized_desert_cliff_basegrey.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6b83035952456244a95ee8c29cb21ec
+    m_Address: Assets/CosmicChamps/Art/VFX/Exhaust_AnimController.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d94ab0e857123d24c9a1b5d37493ee86
+    m_Address: Assets/CosmicChamps/Art/Environments/Materials/cos_SAND_TRIM_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db02479fa1c3ecf4384c3c79bd380d3f
+    m_Address: Assets/CosmicChamps/Art/BaseShips/base_light_A.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dcdb6ce404d48c643ad4613c79a23900
+    m_Address: Assets/CosmicChamps/Art/BaseShips/base_A_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e45529c8bcda22c4bae54812e29ea207
+    m_Address: Assets/CosmicChamps/Art/Environments/Textures/sand_only_basecolor.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5bdb751d97249a448ab464c7fa4cfde
+    m_Address: Assets/CosmicChamps/Art/BaseShips/base_B.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6df20972338140828d121a1b5cc7304
+    m_Address: Assets/CosmicChamps/Units/Hammer/Basic/Textures/RoyalGiant_Emission.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6e9a19c3678ded42a3bc431ebef7dbd
+    m_Address: Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eac4b70539cc4f24ba6fed528191a8f6
+    m_Address: Assets/CosmicChamps/Art/Environments/Textures/sand_only_trim_basecolor.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eca1d9953e34eaf44934f3b938a6c748
+    m_Address: Assets/CosmicChamps/Art/Environments/Textures/stylized_desert_cliff_trim_2_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eff0d6c206b484d2083a212f640ade69
+    m_Address: Assets/CosmicChamps/Units/Hammer/Basic/Animations/Animator.overrideController
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7ed68674704b9e4690dce91dd078794
+    m_Address: Assets/CosmicChamps/Art/VFX/WhispEffect1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f894d9d7f37abd448a831fd76addd4d4
+    m_Address: Assets/CosmicChamps/Art/BaseShips/BaseShip_AnimController.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cea574451253e4accad3a88682f7a4c4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: cd9792d292058471f9d5f999b9dda123, type: 2}
+    - {fileID: 11400000, guid: 7e3069e121bdf4fc389caa8f62384077, type: 2}

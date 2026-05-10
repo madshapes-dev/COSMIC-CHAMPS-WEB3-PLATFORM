@@ -1,0 +1,2 @@
+Asset: Lux URP Essentials
+URL: https://assetstore.unity.com/packages/vfx/shaders/lux-urp-essentials-150355

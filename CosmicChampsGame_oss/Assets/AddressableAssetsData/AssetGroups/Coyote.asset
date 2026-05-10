@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Coyote
+  m_EditorClassIdentifier: 
+  m_GroupName: Coyote
+  m_GUID: a2c60c96a302a4594af26c8f212841e3
+  m_SerializeEntries:
+  - m_GUID: 0786ca6e4d9b3404c8500de05802d853
+    m_Address: cards/coyote_798402012
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - MoltenAB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a29bbde5f6f34d4aa1c9fd532be565e
+    m_Address: cards/coyote_798402169
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - MoltenAB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14bcf8e164cf244ff9aaa8c8f8dfd5bb
+    m_Address: units/coyote_787412653
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Coyote3AB
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19f5174bbcbb846679684aa6ce6461df
+    m_Address: cards/coyote_798402938
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - StringtheoryAB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cbb967884604489c89748c2569e530c
+    m_Address: cards/coyote_786224106
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - Coyote1AB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30262473379ec41ef9e1c853cd151f25
+    m_Address: units/coyote_798402938
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - StringtheoryAB
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c9e759e684b544688aa26da74a6a447
+    m_Address: units/coyote_798402169
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - MoltenAB
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a32a44dcf79543a28c20bfbde7044a1
+    m_Address: units/coyote_786224106
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Coyote1AB
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f81fddc904064561a84628a3534d804
+    m_Address: units/coyote_798402625
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AntiplanetAB
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80629c3a2d8d94876bbd307ec84ba856
+    m_Address: units/coyote_798402012
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - MoltenAB
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80ca9078e269c4e3bb3e0eb9f9db33c9
+    m_Address: cards/coyote_786224391
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - Coyote1AB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84c4c4b65064643a79e4ab47b261e023
+    m_Address: cards/coyote_787412653
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - Coyote3AB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f7a784cd4ffa457e93267fb654a1d28
+    m_Address: units/coyote_786224391
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Coyote1AB
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94d3c2a31daee4f26b7372f26cf82e8d
+    m_Address: cards/coyote_798403096
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - StringtheoryAB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b64e8739ce884418597f7b8518dd0eef
+    m_Address: cards/coyote_798403436
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - SpiralcandyAB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c25c2d7e8649f448091299e25b111c91
+    m_Address: units/coyote_798403287
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - SpiralcandyAB
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c40257aac551a4cffbd3cf2f27dec373
+    m_Address: cards/coyote_798402625
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AntiplanetAB
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c57faa4ffb19d4d86a464e968890b526
+    m_Address: units/coyote
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cba27b55fd57343d08f1b4df171d8bcc
+    m_Address: previews/coyote
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9105d37fc8214705a4fea5da797fd0f
+    m_Address: units/coyote_798402784
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AntiplanetAB
+    - Client
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc24721eda98f430aa6ea24ab90388c7
+    m_Address: units/coyote_786224565
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Coyote3AB
+    - Server
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1b33e8d9e81049d4b4dbd631e79f8f5
+    m_Address: cards/coyote
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e29a9e261db864e74bf249cdac2ee516
+    m_Address: units/coyote_798403096
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - StringtheoryAB
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4d866086b0364e1ca51d96312e8edf5
+    m_Address: cards/coyote_798402784
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AntiplanetAB
+    - Cards
+    - Client
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e871be22510684dad91befe4c41aed3c
+    m_Address: units/coyote_798403436
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - SpiralcandyAB
+    - Units
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f290611868c7c46c687c97fa4e873541
+    m_Address: cards/coyote_786224565
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - Coyote3AB
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd2dffe05b81148ce9c42ffad0a9205b
+    m_Address: cards/coyote_798403287
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cards
+    - Client
+    - SpiralcandyAB
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cea574451253e4accad3a88682f7a4c4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fa5124d38cd8c42b9990feb89f2c5fb4, type: 2}
+    - {fileID: 11400000, guid: 05525ade8bb9c4e079cdc267556fa9a1, type: 2}

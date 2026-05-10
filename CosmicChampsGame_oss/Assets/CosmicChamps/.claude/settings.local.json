@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"c:\\\\GIT\\\\COSMIC_CHAMPS_WEB3_PLATFORM\\\\CosmicChamps_game_oss\\\\Assets\\\\CosmicChamps\\\\Units\" -Recurse -Force | Select-Object -Property FullName | Sort-Object FullName | ForEach-Object { $_.FullName })"
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ASPNETCORE_ENVIRONMENT=Development MACOS=true LOCAL_GAMELIFT=http://localhost:9080 LOCAL_SYSTEM_MANAGER=true dotnet bin/Debug/net6.0/CosmicChamps.Api.dll

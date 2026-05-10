@@ -1,0 +1,140 @@
+@mixin mq($media-query) {
+	$size: $media-query;
+
+	@media #{$size} {
+		@content;
+	}
+}
+@mixin heading-default-settings() {
+	font-family: $heading-font-family;
+}
+
+@mixin font-style-heading-huge() {
+	font-family: $heading-font-family;
+	font-size: rem(69px);
+	line-height: 1;
+	font-weight: 700;
+
+	@include mq('tablet') {
+		font-size: rem(53px);
+	}
+
+	@include mq('mobile') {
+		font-size: rem(46px);
+	}
+}
+
+@mixin font-style-heading-1($weight: 900) {
+	font-family: $heading-font-family;
+	font-size: rem(53px);
+	line-height: 1;
+	font-weight: $weight;
+
+	@include mq('tablet') {
+		font-size: rem(40px);
+	}
+
+	@include mq('mobile') {
+		font-size: rem(30px);
+	}
+}
+
+@mixin font-style-heading-2($weight: 700) {
+	font-family: $heading-font-family;
+	font-size: rem(39px);
+	line-height: 1.2;
+	font-weight: $weight;
+
+	@include mq('tablet') {
+		font-size: rem(30px);
+	}
+
+	@include mq('mobile') {
+		font-size: rem(26px);
+	}
+}
+
+@mixin font-style-heading-3($weight: 700) {
+	font-family: $heading-font-family;
+	font-size: rem(31px);
+	line-height: 1.19;
+	font-weight: $weight;
+
+	@include mq('tablet') {
+		font-size: rem(23px);
+	}
+
+	@include mq('mobile') {
+		font-size: rem(20px);
+	}
+}
+
+@mixin font-style-heading-4($weight: 700) {
+	display: inline-block;
+	font-family: $heading-font-family;
+	font-size: rem(18px);
+	line-height: 1.2;
+	font-weight: $weight;
+
+	@screen md {
+		font-size: rem(25px);
+	}
+}
+
+@mixin font-style-heading-5($weight: 700) {
+	font-family: $heading-font-family;
+	font-size: rem(18px);
+	line-height: 1.22;
+	font-weight: $weight;
+
+	@include mq('tablet') {
+		font-size: rem(16px);
+	}
+
+	@include mq('mobile') {
+		font-size: rem(14px);
+	}
+}
+
+@mixin paragraph-reset() {
+	p {
+		font-size: inherit;
+		font-weight: inherit;
+		line-height: inherit;
+		letter-spacing: inherit;
+		font-family: inherit;
+	}
+
+	ul {
+		padding-left: 1rem;
+	}
+
+	li {
+		list-style-type: disc;
+	}
+}
+
+@mixin font-style-paragraph-default($weight: 500) {
+	font-size: rem(18px);
+	font-weight: $weight;
+	line-height: 1.56;
+	letter-spacing: -0.03em;
+
+	@include mq('tablet') {
+		font-size: rem(16px);
+	}
+}
+
+@mixin font-style-paragraph-small($weight: 500) {
+	font-size: rem(14px);
+	font-weight: $weight;
+	line-height: 1.5;
+	letter-spacing: -0.03em;
+}
+
+@mixin font-style-paragraph-micro($weight: 500) {
+	font-size: rem(12px);
+	font-weight: $weight;
+	line-height: 1.5;
+	letter-spacing: -0.03em;
+}

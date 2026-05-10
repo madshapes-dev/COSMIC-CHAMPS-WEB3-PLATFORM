@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Hawk
+  m_EditorClassIdentifier: 
+  m_GroupName: Hawk
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5a74abf1200c849b089d29a45f6db086
+  m_SerializeEntries:
+  - m_GUID: 2c977e6e9bd1e469c9bd94b2ab9b3eaa
+    m_Address: cards/hawk
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Cards
+  - m_GUID: 854c70df6582b45c5b5e5f136507a846
+    m_Address: units/hawk
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+  - m_GUID: 341b886343ffe4dfdbbcda590fc39ef7
+    m_Address: previews/hawk
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Client
+    - Server
+    - Units
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cea574451253e4accad3a88682f7a4c4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 806261f10ae8e499ab3f41c216ad67c8, type: 2}
+    - {fileID: 11400000, guid: cae3090dfcc3949c7bbb038f85db23b2, type: 2}
